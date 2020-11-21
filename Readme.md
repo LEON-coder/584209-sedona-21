@@ -1,4 +1,4 @@
-# Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# Личный проект «Седона» 
 
 * Студент: [Леонид Половков](https://up.htmlacademy.ru/adaptive/21/user/584209).
 * Наставник: `Дмитрий Могиль`.
