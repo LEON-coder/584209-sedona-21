@@ -4,35 +4,36 @@
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <header class="header">
-        <div class="header__wrapper " width="320px" height="56px" background="#FFFFFF">
+        <div class="header__wrapper" width="320px" height="56px" background="#FFFFFF">
             <a class="header__logo ">
                 <img class="header__image" src="img/header__logo/logotype-mobile.svg.svg" width="101px" height="84px" alt="">
             </a>
-            <div class="header__menu--mobile">
-                <img class="header__menu--img" src="img/header__menu--mobile/icon-menu.svg.png">
+            <div class="header__menu_mobile">
+                <img class="header__menu_img" src="img/header__menu--mobile/icon-menu.svg.png">
+
+                <ul class="header__top-menu">
+                    <a class="header__list">
+                        <li>Главная</li>
+                    </a>
+                    <a class="header__list">
+                        <li>Фото и видео</li>
+                    </a>
+                    <a class="header__list">
+                        <li>Форма Отзыва</li>
+                    </a>
+                    <a class="header__list">
+                        <li>HTML ACADEMY</li>
+                    </a>
+                </ul>
             </div>
 
-
-
-            <ul class="header__top-menu">
-                <a class="header__list">
-                    <li>Главная</li>
-                </a>
-                <a class="header__list">
-                    <li>Фото и видео</li>
-                </a>
-                <a class="header__list">
-                    <li>Форма Отзыва</li>
-                </a>
-                <a class="header__list">
-                    <li>HTML ACADEMY</li>
-                </a>
-            </ul>
         </div>
     </header>
 
@@ -43,36 +44,51 @@
         <p class="main__description">СЕДОНА — небольшой городок в АРИЗОНЕ, зАСЛУЖИвающий большего! Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 
 
-        <div class="main__city--info">
+        <div class="main__city_info">
             <p class="main__text">НАСТОЯЩИЙ ГОРОДОК — №1 — СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
             <img class="main__city--background" src="img/main/city--2/photo-city.jpg" alt="">
-
         </div>
 
 
 
-        <div class="city--2">
-            <img class="city--2__background" src="img/main/main__city--2/photo-city@1x 1.jpg">
+        <div class="city_2">
+            <div class="city_2__discribes">
+                <div class="city_2__advertising">
+                    <div class="icon-house">
+                        <img src="img/main/city--2/city--2__advertising/icon-house.svg.svg" alt="">
+                    </div>
 
-
-            <div class="city--2__discribes">
-                <div class="city--2__advertising">
-                    <img src="img/main/city--2/city--2__advertising/icon-house.svg.svg" alt="">
-                    <p class="">
-                        <h2>Жилье </h2> Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                    <div class="city_2__block">
+                        <p class="city_2__house_text">
+                            <h2 class="city_2__house_text--element">Жилье </h2>
+                            Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                    </div>
                 </div>
 
 
-                <div class="city--2__advertising">
-                    <img src="img/main/city--2/city--2__advertising/icon-gift.svg.svg" alt="">
-                    <p class="">
-                        <h2>СУВЕНИРЫ</h2> Не только китайского, но и местного производства!</p>
+
+                <div class="city_2__advertising">
+
+                    <div class="icon-gift">
+                        <img src="img/main/city--2/city--2__advertising/icon-gift.svg.svg" alt="">
+                    </div>
+
+                    <div class="city_2__block">
+                        <p class="city_2__house_text">
+                            <h2 class="city_2__house_text--element">СУВЕНИРЫ</h2> Не только китайского, но и местного производства!</p>
+                    </div>
                 </div>
 
-                <div class="city--2__advertising">
-                    <img src="img/main/city--2/city--2__advertising/icon-burger.svg.svg" alt="">
-                    <p class="">
-                        <h2>ЕДА</h2> Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+                <div class="city_2__advertising">
+
+                    <div class="icon-burger">
+                        <img src="img/main/city--2/city--2__advertising/icon-burger.svg.svg" alt="">
+                    </div>
+
+                    <div class="city_2__block">
+                        <p class="city_2__house_text">
+                            <h2 class="city_2__house_text_element">ЕДА</h2> Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -97,8 +113,6 @@
                 </div>
                 <div class="">
                     <h2> МАЛО ТУРИСТОВ</h2>
-
-
                     — №5 — Большинство едет в гранд каньон и толпится там
                 </div>
             </div>
@@ -118,31 +132,28 @@
         </div>
 
         <div class="">
-            <img class="" src="img/main/block-map/map-mobile.jpg.png" alt=""> // здесь хотел поставить тег <map> , но по заданию не нужно и пока не разобрался как
+            <img class="" src="img/main/block-map/map-mobile.jpg.png" alt="">
 
-</div>
-
-
-<footer class="footer">
-<a class="" href="#"><h3>#visitSEDONA</h3></a>
-
-<div class="social-block">
-<a class="" href=""><img src="img/footer/social-block/tw.png"></a>
-<a class="" href=""><img src="img/footer/social-block/fb.png"></a>
-<a class="" href=""><img src="img/footer/social-block/youtube.png"></a>
-</div>
-
-<div class="copyright">
-<p class="">Разработано </p>
-<img src="img/footer/footer__logo/htmlacademy.svg.svg" alt="">
-</div>
-
-</footer>
+        </div>
 
 
+        <footer class="footer">
+            <a class="" href="#">
+                <h3>#VISITSEDONA</h3>
+            </a>
 
+            <div class="social-block">
+                <a class="" href=""><img src="img/footer/social-block/tw.png"></a>
+                <a class="" href=""><img src="img/footer/social-block/fb.png"></a>
+                <a class="" href=""><img src="img/footer/social-block/youtube.png"></a>
+            </div>
 
-    </div>
+            <div class="copyright">
+                <p class="">Разработано </p>
+                <img src="img/footer/footer__logo/htmlacademy.svg" alt="">
+            </div>
+
+        </footer>
 
 </body>
 
