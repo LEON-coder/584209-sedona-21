@@ -9,10 +9,12 @@ body {
 
 
 .header {
-  display: flex;
-  width: 100%;
+width: 320px;
+height: 56px;
+background: #FFFFFF;
 }
-.header__wrapper {
+
+.header-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -25,24 +27,54 @@ body {
 }
 
 
-  .header__menu--mobile {
+  .header__menu-mobile {
     display: none;
 }
 
 
   .main {
+    background: url('img/main/main__background.png');
     width: 100%;
     position: relative;
     justify-content: center;
     flex-direction: column;
   }
 
-  .main__background {
-    width: 90%;
-   margin: 20px 15px;
+  .sedona-city-block {
+display: flex;
+width: 100%;
   }
 
-  .main__description {
+
+   .sedona-city-block__text {
+    height: 162px;
+    width: 285px;
+    left: 17.000000000000014px;
+    top: 700px;
+    border-radius: nullpx;
+    position: absolute;
+width: 285px;
+height: 162px;
+left: 17px;
+top: 700px;
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+  }
+
+
+  .sedona-city-block__description {
     width: 90%;
     margin: 20px 15px;
     justify-content: center;
@@ -60,8 +92,11 @@ justify-content: center;
   }
   .main__text {
     position: absolute;
-    top: 0;
-    left: 0;
+left: 31.89%;
+right: 32.14%;
+top: 10.22%;
+bottom: 89.02%;
+
   }
 
 

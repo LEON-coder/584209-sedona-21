@@ -1,0 +1,121 @@
+body {
+  width: 100%;
+  background: #ffffff;
+}
+.header {
+  width: 320px;
+  height: 56px;
+  background: #FFFFFF;
+}
+.header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+}
+.header__menu-mobile {
+  display: none;
+}
+.main {
+  background: url('img/main/main__background.png');
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+}
+.sedona-city-block {
+  display: flex;
+  width: 100%;
+}
+.sedona-city-block__text {
+  left: 17px;
+  border-radius: nullpx;
+  position: absolute;
+  width: 285px;
+  height: 162px;
+  left: 17px;
+  top: 700px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.sedona-city-block__description {
+  width: 90%;
+  margin: 20px 15px;
+  justify-content: center;
+  display: flex;
+  align-self: center;
+}
+.main__city_info {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main__text {
+  position: absolute;
+  left: 31.89%;
+  right: 32.14%;
+  top: 10.22%;
+  bottom: 89.02%;
+}
+.main__city--background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.city_2 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.city_2__discribes {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.city_2__advertising {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.city_2__house_text {
+  display: flex;
+}
+.city_2__house_text--element {
+  display: flex;
+  margin-top: -24px;
+}
+.city_2__block {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.icon-house {
+  display: flex;
+  align-self: flex-start;
+}
+.icon-gift {
+  display: flex;
+  align-self: flex-start;
+}
+.icon-burger {
+  display: flex;
+  align-self: flex-start;
+}
+/*# sourceMappingURL=style.css.map */
