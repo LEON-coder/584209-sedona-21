@@ -1,11 +1,8 @@
 
-
-
-
-
 body {
-  width: 100%;
-   background: #ffffff; }
+  max-width: 320px;
+
+  }
 
 
 .header {
@@ -15,6 +12,8 @@ background: #FFFFFF;
 }
 
 .header-wrapper {
+  width: 100%;
+height: 56px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -33,63 +32,128 @@ background: #FFFFFF;
 
 
   .main {
-    background: url('img/main/main__background.png');
-    width: 100%;
+    display: flex;
+    width: 320px;
     position: relative;
     justify-content: center;
     flex-direction: column;
   }
 
   .sedona-city-block {
+height: 389px;
+mix-blend-mode: normal;
 display: flex;
 width: 100%;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: relative;
   }
 
-
-   .sedona-city-block__text {
-    height: 162px;
-    width: 285px;
-    left: 17.000000000000014px;
-    top: 700px;
-    border-radius: nullpx;
+  .sedona-city-block__background {
+    display: flex;
     position: absolute;
-width: 285px;
-height: 162px;
-left: 17px;
-top: 700px;
+    width: 100%;
+    height: 389px;
+    top: 0;
+    left: 0;
+    max-width: 320px;
+    justify-content: center;
+}
 
+
+   .sedona-city-block__img {
+    height: 27.51714324951172px;
+    width: 115.1319580078125px;
+z-index: 2;
+    border-radius: 0px;
+     color: #81B3D3;
+     display: flex;
+     justify-content: center;
+     align-self: center;
 font-family: PT Sans;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 26px;
+display: flex;
+justify-content: center;
+align-content: center;
 /* or 144% */
 
 display: flex;
 align-items: center;
 text-align: center;
 text-transform: uppercase;
-
-color: #000000;
+color: #81B3D3;
   }
 
 
-  .sedona-city-block__description {
-    width: 90%;
-    margin: 20px 15px;
-    justify-content: center;
+  .sedona-city-block__description-bold-header {
+    width: 285px;
+    height: 162px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
     display: flex;
-    align-self: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.welcome {
+
+}
+
+.sedona-gorgeous {
+
+}
+
+.sedona-text {
+z-index: 2;
+}
+
+.grand-canyone {
+  z-index: 2;
+}
+
+.sedona-city-block__description-text {
+  width: 285px;
+  height: 162px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: thin;
+  font-size: 14px;
+  line-height: 26px;
+  /* or 186% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  mix-blend-mode: normal;
+}
+
+.sedona-city-block__advertisement {
+display: flex;
+flex-direction: column;
+z-index: 1;
 }
 
 
-  .main__city_info {
-    position: relative;
-    width: 100%;
-    display: flex;
-justify-content: center;
-
-  }
+.main__city-info {
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #81B3D2;
+}
   .main__text {
     position: absolute;
 left: 31.89%;
@@ -101,44 +165,47 @@ bottom: 89.02%;
 
 
 
-  .main__city--background {
+  .main__city-background {
+
     width: 100%;
     display: flex;
     justify-content: center;
 
   }
 
-  .city_2 {
-    width: 90%;
+  .city-2 {
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-  }
+    flex-direction: column;
+    align-items: center;
+}
 
-  .city_2__discribes {
+  .city-2__discribes {
     margin-top: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
 
-  .city_2__advertising {
+  .city-2__advertising {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .city_2__house_text {
+  .city-2__house-text {
 display: flex;
   }
 
-  .city_2__house_text--element{
+  .city-2__text-element{
     display: flex;
     margin-top: -24px;
   }
 
-  .city_2__block {
+  .city-2__block {
     margin-left: 20px;
     display: flex;
    flex-direction: column;
@@ -159,13 +226,93 @@ align-self: flex-start;
     align-self: flex-start;
   }
 
-  .city_2__block {
+  .city-2__block {
 
   }
 
+  .block-info__block-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 289px;
+    height: 117px;
+}
+
+.block-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #81B3D2;
+  width: 100%;
+  max-width: 320px;
+}
 
 
+.block-info__2 {
+  height: 117px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  justify-content: center;
+  width: 100%;
+}
 
+.block-info__text {
+  height: 117px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  display: flex;
+  height: 191px;
+  background-color: #81B3D2;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+.block-info__block-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 117px;
+  width: 100%;
+  margin-top: 39px;
+  margin-bottom: 39px;
+  margin-left: 15px;
+  margin-right: 16px;
+}
+
+.block-info__go {
+  display: flex;
+  width: 289px;
+height: 117px;
+font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
 
 
 
