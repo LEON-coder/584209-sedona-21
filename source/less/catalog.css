@@ -1,0 +1,21 @@
+body {
+  width: 100%;
+}
+.header {
+  display: flex;
+  width: 100%;
+}
+.header__wrapper {
+  background-image: url("/catalog/img/header/header-back-desktop.jpg.png");
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+}
+.header-image {
+  display: flex;
+}
