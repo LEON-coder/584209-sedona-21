@@ -1,64 +1,50 @@
-
 body {
   width: 100%;
   box-sizing: border-box;
   display: contents;
   max-width: 320px;
 }
-
-
 .header {
-width: 100%;
-height: 56px;
-background: #FFFFFF;
-}
-
-.header-wrapper {
   width: 100%;
-height: 56px;
+  height: 56px;
+  background: #FFFFFF;
+}
+.header-wrapper {
+  height: 56px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
- }
-
+}
 .header__logo {
   display: flex;
   justify-content: center;
   z-index: 2;
-
 }
-
 .header__image {
-z-index: 2;
+  z-index: 2;
 }
-
-
-  .header__menu-mobile {
-    display: none;
+.header__menu-mobile {
+  display: none;
 }
-
-
-  .main {
-    display: flex;
-    width: 100%;
-    position: relative;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .sedona-city-block {
-    height: 389px;
-    mix-blend-mode: normal;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    z-index: -1;
+.main {
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
 }
-
+.sedona-city-block {
+  height: 389px;
+  mix-blend-mode: normal;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: -1;
+}
 .sedona-city-block__background {
   display: flex;
   position: absolute;
@@ -66,97 +52,76 @@ z-index: 2;
   height: 389px;
   justify-content: center;
 }
-
 .sedona-city-block_welcome {
   display: flex;
 }
-
-
 .sedona-city-block_gorgeous {
   display: flex;
-  height: 17.719579696655273px;
-  width: 106.905517578125px;
-  left: 106.57922363281251px;
-  top: 402.99871826171875px;
+  height: 17.7195797px;
+  width: 106.90551758px;
+  left: 106.57922363px;
+  top: 402.99871826px;
   border-radius: 0px;
-
 }
-
-   .sedona-city-block__img {
-    height: 27.51714324951172px;
-    width: 115.1319580078125px;
-z-index: 2;
-    border-radius: 0px;
-     color: #81B3D3;
-     display: flex;
-     justify-content: center;
-     align-self: center;
-font-family: PT Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 26px;
-display: flex;
-justify-content: center;
-align-content: center;
-/* or 144% */
-
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #81B3D3;
-  }
-
-
-  .sedona-city-block__description-bold-header {
-    width: 285px;
-    height: 162px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 26px;
-    /* or 144% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
+.sedona-city-block__img {
+  height: 27.51714325px;
+  width: 115.13195801px;
+  z-index: 2;
+  border-radius: 0px;
+  align-self: center;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  justify-content: center;
+  align-content: center;
+  /* or 144% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #81B3D3;
 }
-
+.sedona-city-block__description-bold-header {
+  width: 285px;
+  height: 162px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
 .sedona-text {
-z-index: 2;
+  z-index: 2;
 }
-
 .grand-canyone {
   z-index: 2;
 }
-
-
 .sedona-city-block-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-element.style {
+  background: #E7E5E5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .sedona-city-block-2__description-header {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 26px;
-    display: flex;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000000;
-    mix-blend-mode: normal;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
 }
-
 .sedona-city-block-2__description-text {
   text-transform: uppercase;
   color: #333333;
@@ -172,8 +137,6 @@ element.style {
   padding-left: 15px;
   padding-right: 15px;
 }
-
-
 .sedona-city-block__description-text {
   width: 285px;
   height: 162px;
@@ -183,7 +146,6 @@ element.style {
   font-size: 14px;
   line-height: 26px;
   /* or 186% */
-
   display: flex;
   align-items: center;
   text-align: center;
@@ -191,7 +153,6 @@ element.style {
   color: #333333;
   mix-blend-mode: normal;
 }
-
 .sedona-city-block__advertisement {
   display: flex;
   flex-direction: column;
@@ -201,8 +162,6 @@ element.style {
   justify-content: space-between;
   align-items: center;
 }
-
-
 .city-info {
   position: relative;
   width: 100%;
@@ -211,7 +170,6 @@ element.style {
   text-align: center;
   background-color: #81B3D2;
 }
-
 .city-info__block {
   display: flex;
   width: 100%;
@@ -221,7 +179,6 @@ element.style {
   padding-bottom: 39px;
   padding-top: 55px;
 }
-
 .city {
   font-family: PT Sans;
   font-style: normal;
@@ -236,7 +193,6 @@ element.style {
   mix-blend-mode: normal;
   justify-content: center;
 }
-
 .number-1 {
   font-family: PT Sans;
   font-style: normal;
@@ -251,7 +207,6 @@ element.style {
   mix-blend-mode: normal;
   justify-content: center;
 }
-
 .tourist {
   font-family: PT Sans;
   font-style: normal;
@@ -265,32 +220,27 @@ element.style {
   justify-content: center;
   width: 295px;
 }
-  .main__text {
-    position: absolute;
-left: 31.89%;
-right: 32.14%;
-top: 10.22%;
-bottom: 89.02%;
-  }
-
-
-  .main__city-background {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-  }
-
-  .city-2 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: column;
-    align-items: center;
+.main__text {
+  position: absolute;
+  left: 31.89%;
+  right: 32.14%;
+  top: 10.22%;
+  bottom: 89.02%;
 }
-
+.main__city-background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.city-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-items: center;
+}
 .city-2__discribes {
   margin-top: 30px;
   display: flex;
@@ -298,51 +248,39 @@ bottom: 89.02%;
   flex-direction: column;
   width: 80%;
 }
-
-  .city-2__advertising {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+.city-2__advertising {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
-
-  .city-2__house-text {
-display: flex;
-  }
-
-  .city-2__text-element {
-    display: flex;
-    margin-top: -24px;
-    text-transform: uppercase;
+.city-2__house-text {
+  display: flex;
 }
-
-  .city-2__block {
-    margin-left: 20px;
-    display: flex;
-   flex-direction: column;
-  }
-
-  .icon-house {
-display: flex;
-align-self: flex-start;
-  }
-
-  .icon-gift {
-    display: flex;
-    align-self: flex-start;
-  }
-
-  .icon-burger {
-    display: flex;
-    align-self: flex-start;
-  }
-
-
-  .block-info {
-    width: 100%;
+.city-2__text-element {
+  display: flex;
+  margin-top: -24px;
+  text-transform: uppercase;
 }
-
-
-
+.city-2__block {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.icon-house {
+  display: flex;
+  align-self: flex-start;
+}
+.icon-gift {
+  display: flex;
+  align-self: flex-start;
+}
+.icon-burger {
+  display: flex;
+  align-self: flex-start;
+}
+.block-info {
+  width: 100%;
+}
 .block-info__2 {
   height: 117px;
   font-family: PT Sans;
@@ -359,23 +297,20 @@ align-self: flex-start;
   width: 100%;
 }
 .block-info__go {
-  display: flex;
   width: 289px;
-height: 117px;
-font-family: PT Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 21px;
-/* or 150% */
-
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
+  height: 117px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
-
 .block-info__text {
   height: 117px;
   font-family: PT Sans;
@@ -393,7 +328,6 @@ color: #FFFFFF;
   text-align: center;
   align-items: center;
 }
-
 .block-info__block-text {
   display: flex;
   justify-content: center;
@@ -405,7 +339,6 @@ color: #FFFFFF;
   background-color: #81B3D2;
   align-items: center;
 }
-
 .block-info_item {
   display: flex;
   justify-content: center;
@@ -414,24 +347,20 @@ color: #FFFFFF;
   width: 100%;
   border-radius: 0px;
 }
-
 .block-info_item-inside {
-    display: block;
-    border-bottom: 1px solid #D6D6D6;
-    padding-left: 26px;
-    padding-right: 26px;
+  display: block;
+  border-bottom: 1px solid #D6D6D6;
 }
-
 .block-info_item-header {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 14px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000000;
-    mix-blend-mode: normal;
-    font-size: 21px;
+  height: 117px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
 }
 .block-info__items {
   width: 100%;
@@ -443,44 +372,36 @@ color: #FFFFFF;
   align-items: center;
   justify-content: center;
 }
-
-
 .block-info__list-discribes {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-
 .block-info_picture {
   display: flex;
   width: 100%;
   max-width: 320px;
 }
-
 .block-info_advantages {
-display: block;
+  display: block;
 }
-
 .block-info_number {
   text-align: center;
 }
-
 .block-info_describe {
-
-font-family: PT Sans;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px;
-letter-spacing: 0px;
-text-align: center;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
 }
-
 .block-form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 .block-form__choosing-travel-wrapper {
   margin-bottom: 49px;
@@ -491,24 +412,19 @@ text-align: center;
   justify-content: center;
   align-items: center;
 }
-
-
-
 .block-form__choosing-travel {
   height: 210px;
   width: 261px;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
   font-family: PT Sans;
-font-size: 21px;
-font-style: normal;
-font-weight: 700;
-line-height: 26px;
-letter-spacing: 0px;
-text-align: center;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
 }
-
 .block-form__header {
   display: flex;
   font-family: PT Sans;
@@ -520,24 +436,22 @@ text-align: center;
   text-align: center;
   justify-content: center;
 }
-
 .block-form_travel-date {
- width: 261px;
-height: 120px;
-font-family: PT Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #333333;
-mix-blend-mode: normal;
+  width: 261px;
+  height: 120px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  mix-blend-mode: normal;
 }
-
 .block-form__hostel {
   font-family: PT Sans;
   font-size: 21px;
@@ -554,18 +468,15 @@ mix-blend-mode: normal;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
 }
-
 .form {
-display: flex;
+  display: flex;
 }
-
 .block-form_map {
-display: flex;
-width: 100%;
+  display: flex;
+  width: 100%;
 }
-
 .footer {
   display: flex;
   justify-content: center;
@@ -574,7 +485,6 @@ width: 100%;
   width: 100%;
   height: 233px;
 }
-
 .footer__central-block {
   display: flex;
   justify-content: center;
@@ -583,8 +493,6 @@ width: 100%;
   width: 166px;
   height: 181px;
 }
-
-
 .footer__link {
   height: 26px;
   font-family: PT Sans;
@@ -599,7 +507,6 @@ width: 100%;
   text-decoration: none;
   color: #000000;
 }
-
 .footer__social-block {
   display: flex;
   justify-content: center;
@@ -608,56 +515,44 @@ width: 100%;
   width: 151px;
   height: 48px;
 }
-
 .footer_tw {
-margin-right: 6px;
-width: 48px;
+  margin-right: 6px;
+  width: 48px;
   height: 48px;
 }
-
 .footer_fb {
   margin-right: 6px;
   width: 48px;
   height: 48px;
 }
-
 .footer_youtube {
   width: 48px;
   height: 48px;
 }
-
 .footer__copyright {
   display: flex;
   justify-content: space-between;
   width: 144px;
   max-width: 100%;
 }
-
 .footer_develop {
+  font-weight: 400;
+  letter-spacing: 0px;
+  width: 121px;
+  height: 26px;
   font-family: PT Sans;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0px;
-text-align: center;
-width: 121px;
-height: 26px;
-font-family: PT Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 26px;
-
-/* identical to box height, or 186% */
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #000000;
-mix-blend-mode: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
 }
-
 .footer_logo {
   height: 34.09999847px;
   width: 26.89999962px;
@@ -667,22 +562,4 @@ mix-blend-mode: normal;
   display: flex;
   align-self: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*# sourceMappingURL=style.css.map */
