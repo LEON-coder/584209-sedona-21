@@ -19,6 +19,7 @@ const styles = () => {
         .pipe(sourcemap.write("."))
         .pipe(gulp.dest("source/css"))
         .pipe(sync.stream());
+
 }
 
 exports.styles = styles;
