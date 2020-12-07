@@ -11,7 +11,7 @@
     <title>Catalog</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
     <header class="catalog__header">
         <div class="catalog-header__wrapper">
             <a class="catalog-header__logo">
-                <img class="catalog-header-image" src="img/header___logo/logotype-mobile.svg" alt="">
+                <img class="header__image" src="img/header/header__logo/logotype-mobile.svg" alt="">
             </a>
             <img class="catalog-header__icon-menu" src="img/header/header__menu-mobile/icon-menu.svg.png">
     </header>
@@ -142,26 +142,35 @@
 
 
 
-    <footer class="footer catalog">
-
+    <footer class="footer">
         <div class="footer__central-block">
-            <a class="footer__link" href="#">
-             #VISITSEDONA
-          </a>
-
+            <a class="footer__link" href="#">#VISITSEDONA</a>
 
             <div class="footer__social-block">
-                <a class="footer_tw" href="#"><img src="img/footer/social-block/tw.png"></a>
-                <a class="footer_fb" href="#"><img src="img/footer/social-block/fb.png"></a>
-                <a class="footer_youtube" href="#"><img src="img/footer/social-block/youtube.png"></a>
+                <div class="footer_tw-block">
+                    <a href="#" class="footer_tw"> <img src="img/footer/social-block/icon-twitter.svg.svg"></a>
+                </div>
+
+
+                <div class="footer_fb-block">
+                    <a href="#" class="footer_fb"><img src="img/footer/social-block/icon-facebook.svg.svg"></a>
+                </div>
+
+                <div class="footer_youtube-block">
+                    <a href="#" class="footer_youtube"> <img src="img/footer/social-block/icon-youtube.svg.svg"></a>
+                </div>
             </div>
 
-            <div class="footer__copyright">
-                <p class="footer_develop">РАЗРАБОТАНО </p>
-                <img class="footer_logo" src="img/footer/footer__logo/htmlacademy.svg" alt="">
+
+
+            <div class="footer_logo">
+                <p class="footer_develop">РАЗРАБОТАНО</p>
+                <img class="footer__copyright form-modifier" src="img/footer/footer__logo/htmlacademy.svg">
             </div>
         </div>
-        </div>
+
+
+
 
     </footer>
 
