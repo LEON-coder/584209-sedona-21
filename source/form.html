@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Верстка формы сайта "Седона"</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__wrapper">
+
+            <a class="header__logo ">
+                <img class="header__image" src="img/header/header__logo/logotype-mobile.svg" width="101px" height="84px" alt="">
+            </a>
+
+            <div class="header__menu-mobile">
+                <img class="header__menu-img" src="img/header__menu--mobile/icon-menu.svg.png">
+
+
+                <ul class="header__top-menu">
+                    <a class="header__list">
+                        <li>Главная</li>
+                    </a>
+                    <a class="header__list">
+                        <li>Фото и видео</li>
+                    </a>
+                    <a class="header__list">
+                        <li>Форма Отзыва</li>
+                    </a>
+                    <a class="header__list">
+                        <li>HTML ACADEMY</li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+
+    <div class="form__main-contain">
+        <div class="form-contain__block-picture_decorations">
+            <img class="form__main-contain__picture" src="img/main/main__background.png">
+            <img class="form__SEDONA" src="img/main/SEDONA.png">
+            <div class="vectors-block form-vector">
+                <img class="vector-left" src="img/main/vectors-block/vector-left.png">
+                <img class="vector-right" src="img/main/vectors-block/vector-right.png">
+            </div>
+
+        </div>
+        <div class="form__block-feedback">
+            <p class="form__feedback">ОСТАВЬТЕ СВОЙ ОТЗЫВ</p>
+            <p class="form__feedback-text">ПОМОГИТЕ НАШИМ ОТЕЛЯМ СТАТЬ ЛУЧШЕ! ОСТАВЬТЕ ОТЗЫВ О НИХ, А ТАКЖЕ О ПОСЕЩЕННЫХ ВАМИ ДОСТОПРИМЕЧАТЕЛЬНОСТЯХ</p>
+        </div>
+
+
+        <div class="form__content-introduce">
+            <h2 class="form__content-introduce-introducing">ПРЕДСТАВЬТЕСЬ:</h2>
+
+            <form class="form__content-introduce-form">
+                <p class="content-introduce__form-name">
+                    ИМЯ*:
+                    <input type="text" class="Peter" value="Петр">
+                </p>
+
+                <p class="content-introduce__form-last-name">
+                    ФАМИЛИЯ*:
+                    <input type="text" class="Ivanov" value="Иванов">
+                </p>
+
+                <p class="content-introduce__form-middle-name">
+                    ОТЧЕСТВО:
+                    <input type="text" class="Alexandrovich" value="Александрович">
+                </p>
+            </form>
+        </div>
+
+
+
+        <div class="form__contact-information">
+            <h2 class="form__contact-information_text">КОНТАКТНАЯ ИНФОРМАЦИЯ:
+            </h2>
+
+            <div class="contact-information-block">
+                <p class="contact-information-block__pnone">Контактный телефон*:
+                    <div class="contact-information-block__block-phone">
+                        <input type="phone" class="phone-area" value="Введите телефон">
+                        <div class="contact-information-block__phone-icon-block">
+                            <img class="contact-information-block__phone-icon-block--phone-icon" src="img/form__contact-information/phone.svg.svg" alt="">
+                        </div>
+                    </div>
+                </p>
+
+            </div>
+
+            <div class="contact-information-block">
+                <p class="contact-information-block__mail">Электронная почта*:
+                    <div class="contact-information-block__block-email">
+                        <input type="email" class="contact-information-block__block-emai--mail-area" value="Введите e-mail">
+                        <div class="contact-information-block__email-icon-block">
+                            <img class="contact-information-block__email-icon-block--email-icon" src="img/form__contact-information/mail.svg.svg" alt="">
+                        </div>
+                    </div>
+            </div>
+            </p>
+        </div>
+    </div>
+
+    <div class="form__contact-impression">
+        <h2 class="contact-impression__text">ВАШЕ ОБЩЕЕ ВПЕЧАТЛЕНИЕ:</h2>
+
+        <div class="contact-impression__block-radio">
+            <p class="impression__answer">
+                <input type="radio" class="impression" name="radio" value="positive" checked> Скорее положительное</p>
+            <p class="impression__answer">
+                <input type="radio" class="impression" name="radio" value="negative"> Скорее отрицательное</p>
+            <p class="impression__answer">
+                <input type="radio" class="impression" name="radio" value="oteher"> Затрудняюсь ответить</p>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <div class="form-visited-places">
+
+        <div class="form-visited-places__wrapper">
+            <h2 class="visited-places__header">ПОСЕЩЕННЫЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ:</h2>
+            <label for="bridge" class="visited-place">
+                <input class="visited-places__checkbox" id="bridge" type="checkbox" value="1">Мост Дьявола
+            </label>
+            <label for="mountain" class="visited-place">
+                <input class="visited-places__checkbox" id="mountain" type="checkbox" value="2">Гора-Колокол
+            </label>
+            <label for="park" class="visited-place">
+                <input class="visited-places__checkbox" id="park" type="checkbox" value="3" src="img/form__visited-places/tick.svg.png">Слайд-парк
+            </label>
+            <label for="red-mountans" class="visited-place">
+                <input class="visited-places__checkbox" id="red-mountans" type="checkbox" value="4">Красные скалы
+            </label>
+        </div>
+
+    </div>
+
+
+
+    <div class="form__emotions">
+        <p class="emotions-describe__header">ОПИШИТЕ СВОИ ЭМОЦИИ:</p>
+        <textarea class="emotions-describe__text" type="text" value="" cols="50" rows="20">ОПИШИТЕ ПОДРОБНО ВСЕ СВОИ ВОСТОРГИ
+            </textarea>
+
+        <button class="form__emotions-button">
+              ОТПРАВИТЬ ОТЗЫВ
+            </button>
+    </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer__central-block">
+            <a class="footer__link" href="#">#VISITSEDONA</a>
+
+            <div class="footer__social-block">
+                <div class="footer__tw-block">
+                    <a href="#" class="footer__tw"> <img src="img/footer/social-block/icon-twitter.svg.svg"></a>
+                </div>
+
+
+                <div class="footer__fb-block">
+                    <a href="#" class="footer__fb"><img src="img/footer/social-block/icon-facebook.svg.svg"></a>
+                </div>
+
+                <div class="footer__youtube-block">
+                    <a href="#" class="footer__youtube"> <img src="img/footer/social-block/icon-youtube.svg.svg"></a>
+                </div>
+            </div>
+
+
+
+            <div class="footer__logo">
+                <p class="footer__develop">РАЗРАБОТАНО</p>
+                <img class="footer__copyright form-modifier" src="img/footer/footer__logo/htmlacademy.svg">
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
