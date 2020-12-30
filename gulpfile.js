@@ -3,7 +3,7 @@ const plumber = require("gulp-plumber");
 const sourcemap = require("gulp-sourcemaps");
 const less = require("gulp-less");
 const postcss = require("gulp-postcss");
-const autoprefixer = require("autoprefixer");
+//const autoprefixer = require("autoprefixer");
 const sync = require("browser-sync").create();
 
 // Styles
@@ -13,9 +13,9 @@ const styles = () => {
         .pipe(plumber())
         .pipe(sourcemap.init())
         .pipe(less())
-        .pipe(postcss([
+        /*.pipe(postcss([
             autoprefixer()
-        ]))
+        ]))*/
         .pipe(sourcemap.write("."))
         .pipe(gulp.dest("source/css"))
         .pipe(sync.stream());
