@@ -1947,6 +1947,7 @@
             flex-direction: column;
             position: relative;
             margin-top: -26px;
+            height: 214px;
         }
         
         @media (min-width: 768px) {
@@ -1960,18 +1961,22 @@
             }
         }
         
-        @media (min-width: 768px) {
-            .catalog-content__block-foto-and-video_picture {
-                display: none;
-                width: 100%;
-                position: relative;
-            }
+        .catalog-content__block-foto-and-video_sedona {
+            display: flex;
         }
         
         .catalog-content__block-foto-and-video_picture {
-            display: none;
+            display: flex;
             width: 100%;
             position: relative;
+        }
+        
+        @media (min-width: 768px) {
+            .catalog-content__block-foto-and-video_picture {
+                display: flex;
+                width: 100%;
+                position: absolute;
+            }
         }
         
         .catalog-content__block-foto-and-video_picture--tablet {
