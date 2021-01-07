@@ -10,6 +10,15 @@
                 margin: 0;
             }
             
+            @media (min-width:1200px) {
+                body {
+                    width: 100%;
+                    margin: 0;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                }
+            }
+            
             .header {
                 width: 100%;
                 height: 56px;
@@ -2128,8 +2137,9 @@
                 .catalog-main__foto-gallery {
                     background-image: url(catalog/img/catalog-main__foto-gallery/photo-1-mobile.jpg);
                     display: flex;
-                    width: 648px;
                     flex-wrap: wrap;
+                    height: 400px;
+                    width: 100%;
                 }
             }
             
@@ -2156,21 +2166,19 @@
             }
             
             @media (min-width: 1200px) {
+                .catalog-main__foto-gallery_3-blocks {
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                }
+            }
+            
+            @media (min-width: 1200px) {
                 .catalog-main__foto-gallery-block {
                     display: flex;
                     flex-direction: row;
                     flex-wrap: wrap;
                     width: 100%;
-                }
-            }
-            
-            @media (min-width: 1200px) {
-                .catalog-main__foto-gallery {
-                    background-image: url(catalog/img/catalog-main__foto-gallery/photo-1-mobile.jpg);
-                    display: flex;
-                    flex-wrap: wrap;
-                    height: 400px;
-                    width: 1200px;
                 }
             }
             
