@@ -2597,7 +2597,7 @@
                 }
             }
             
-            @media (min-width: 768px) {
+            @media (min-width: 1200px) {
                 .footer__link-desktop--modifier {
                     margin-left: 104px;
                 }
@@ -2606,6 +2606,12 @@
             @media (min-width: 768px) {
                 .footer__logo-tablet--modifier {
                     margin-right: 60px;
+                }
+            }
+            
+            @media (min-width: 1200px) {
+                .footer__logo-desktop--modifier {
+                    margin-right: 120px;
                 }
             }
             
