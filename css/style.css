@@ -1968,12 +1968,13 @@
         .catalog-content__block-foto-and-video_picture {
             display: flex;
             width: 100%;
-            position: relative;
+            position: absolute;
+            height: 214px;
         }
         
         @media (min-width: 768px) {
             .catalog-content__block-foto-and-video_picture {
-                display: flex;
+                display: none;
                 width: 100%;
                 position: absolute;
             }
@@ -1992,6 +1993,14 @@
             }
         }
         
+        .catalog-content__block-foto-and-video_sedona {
+            display: flex;
+            z-index: 2;
+            justify-content: center;
+            align-items: center;
+            margin-top: 52px;
+        }
+        
         @media (min-width: 768px) {
             .catalog-content__block-foto-and-video_sedona {
                 display: flex;
@@ -2005,14 +2014,16 @@
         .catalog-content__block-foto-and-video_intro-triangle {
             position: absolute;
             display: flex;
-            bottom: 0;
+            bottom: -1px;
+            justify-content: center;
+            align-self: center;
         }
         
         @media (min-width: 768px) {
-            .catalog-content__block-foto-and-video_intro-triangle {
+            .catalog-content__block-foto-and-video_intro-triangle--tablet {
                 position: absolute;
-                display: none;
-                bottom: 0;
+                top: 461px;
+                width: 100%;
             }
         }
         
