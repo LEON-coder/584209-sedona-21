@@ -331,13 +331,14 @@
         }
     }
     
-    .sedona-city-block__welcome_tablet {
+    .sedona-city-block__welcome-tablet {
         display: none;
     }
     
     @media (min-width: 768px) {
         .sedona-city-block__welcome-tablet {
             margin-top: 77px;
+            display: flex;
         }
     }
     
@@ -2888,20 +2889,10 @@
     @media (min-width: 768px) {
         .block-presentation__replay-and-subtitles {
             display: flex;
-            height: 66px;
-            width: 280px;
-            background: none;
-            justify-content: flex-end;
-        }
-    }
-    
-    @media (min-width: 1200px) {
-        .block-presentation__replay-and-subtitles {
-            display: flex;
-            width: 280px;
-            background: none;
-            justify-content: flex-end;
             height: 93px;
+            width: 280px;
+            background: none;
+            justify-content: flex-end;
         }
     }
     
@@ -2935,7 +2926,7 @@
     
     @media (min-width: 768px) {
         .block-presentation__player-subtitles {
-            display: flex;
+            display: none;
             margin-left: 42px;
             align-self: center;
             background: #FFFFFF;
@@ -2945,7 +2936,7 @@
     
     @media (min-width: 1200px) {
         .block-presentation__player-subtitles {
-            display: none;
+            display: flex;
             margin-left: 42px;
             align-self: center;
             background: #FFFFFF;
@@ -2957,13 +2948,19 @@
         display: none;
     }
     
+    @media (min-width: 768px) {
+        .block-presentation__player-subtitles-desktop {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+        }
+    }
+    
     @media (min-width: 1200px) {
         .block-presentation__player-subtitles-desktop {
             display: flex;
             justify-content: center;
             align-self: center;
-            height: 20px;
-            width: 32px;
         }
     }
     
@@ -2975,7 +2972,7 @@
     
     @media (min-width: 768px) {
         .block-presentation__player-fullscreen {
-            display: flex;
+            display: none;
             align-self: center;
             margin-right: 41px;
             margin-left: 31px;
