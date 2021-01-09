@@ -65,19 +65,17 @@
     
     @media (min-width: 768px) {
         .header__logo {
-            display: none;
+            display: flex;
             justify-content: center;
             z-index: 2;
         }
     }
     
-    @media (min-width: 768px) {
-        .header__logo--tablet {
-            z-index: 2;
+    @media (min-width: 1200px) {
+        .header__logo {
             display: flex;
-            height: 56px;
-            width: 156px;
-            border-radius: 0px;
+            justify-content: center;
+            z-index: 2;
         }
     }
     
@@ -101,7 +99,7 @@
         .header__image-tablet {
             z-index: 2;
             display: flex;
-            margin-top: -2px;
+            margin-top: 22px;
         }
     }
     
@@ -130,8 +128,7 @@
             display: flex;
             height: 96.42500305175781px;
             width: 186.60000610351562px;
-            border-radius: 0px;
-            margin-top: -16px;
+            margin-top: 40px;
         }
     }
     
@@ -330,6 +327,7 @@
     @media (min-width: 768px) {
         .sedona-city-block__welcome {
             display: none;
+            margin-top: 90px;
         }
     }
     
