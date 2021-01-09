@@ -336,8 +336,7 @@
     }
     
     @media (min-width: 768px) {
-        .sedona-city-block__welcome_tablet {
-            display: flex;
+        .sedona-city-block__welcome-tablet {
             margin-top: 77px;
         }
     }
