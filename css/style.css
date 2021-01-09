@@ -57,6 +57,8 @@
         }
     }
     
+    .catalog-modifier {}
+    
     .header__logo {
         display: flex;
         justify-content: center;
@@ -2183,6 +2185,16 @@
         align-self: center;
     }
     
+    @media (min-width: 768px) {
+        .catalog-content__block-foto-and-video_intro-triangle {
+            position: absolute;
+            display: none;
+            bottom: -1px;
+            justify-content: center;
+            align-self: center;
+        }
+    }
+    
     @media (min-width: 1200px) {
         .catalog-content__block-foto-and-video_intro-triangle {
             position: absolute;
@@ -2198,7 +2210,6 @@
             position: absolute;
             top: 461px;
             width: 100%;
-            display: none;
         }
     }
     
@@ -2768,7 +2779,7 @@
     
     .block-presentation__elements-control {
         display: flex;
-        width: 253px;
+        width: 280px;
         align-self: center;
         flex-direction: column;
         position: relative;
@@ -2832,7 +2843,7 @@
         display: flex;
         z-index: 2;
         position: absolute;
-        top: 25%;
+        top: 18%;
         left: 10px;
     }
     
@@ -2863,7 +2874,7 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 22%;
+        top: 15%;
         left: 20%;
     }
     
@@ -2899,6 +2910,14 @@
     .block-presentation__player-replay {
         display: flex;
         margin-left: 25px;
+        position: absolute;
+        top: 60%;
+    }
+    
+    @media (min-width: 768px) {
+        .block-presentation__player-replay {
+            display: none;
+        }
     }
     
     @media (min-width: 1200px) {
@@ -2911,10 +2930,19 @@
         display: none;
     }
     
+    @media (min-width: 768px) {
+        .block-presentation__player-replay-desktop {
+            display: flex;
+            margin-left: 25px;
+            cursor: pointer;
+        }
+    }
+    
     @media (min-width: 1200px) {
         .block-presentation__player-replay-desktop {
             display: flex;
             margin-left: 25px;
+            cursor: pointer;
         }
     }
     
@@ -2936,7 +2964,7 @@
     
     @media (min-width: 1200px) {
         .block-presentation__player-subtitles {
-            display: flex;
+            display: none;
             margin-left: 42px;
             align-self: center;
             background: #FFFFFF;
@@ -2953,6 +2981,7 @@
             display: flex;
             justify-content: center;
             align-self: center;
+            cursor: pointer;
         }
     }
     
@@ -2961,6 +2990,7 @@
             display: flex;
             justify-content: center;
             align-self: center;
+            cursor: pointer;
         }
     }
     
@@ -2976,6 +3006,7 @@
             align-self: center;
             margin-right: 41px;
             margin-left: 31px;
+            cursor: pointer;
         }
     }
     
@@ -2985,6 +3016,7 @@
             align-self: center;
             margin-right: 41px;
             margin-left: 31px;
+            cursor: pointer;
         }
     }
     
@@ -2998,6 +3030,7 @@
             align-self: center;
             margin-right: 41px;
             margin-left: 31px;
+            cursor: pointer;
         }
     }
     
@@ -3007,6 +3040,7 @@
             align-self: center;
             margin-right: 41px;
             margin-left: 31px;
+            cursor: pointer;
         }
     }
     
