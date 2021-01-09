@@ -588,7 +588,7 @@
     }
     
     .sedona-city-block-discribes-city__description-text {
-        font-family: PT Sans;
+        font-family: 'PT Sans';
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -603,7 +603,7 @@
     
     @media (min-width: 768px) {
         .sedona-city-block-discribes-city__description-text {
-            font-family: PT Sans;
+            font-family: 'PT Sans';
             font-style: normal;
             font-weight: normal;
             font-size: 14px;
@@ -614,6 +614,13 @@
             text-transform: uppercase;
             color: #333333;
             mix-blend-mode: normal;
+            margin-bottom: 52.5px;
+        }
+    }
+    
+    @media (min-width: 1200px) {
+        .sedona-city-block-discribes-city__description-text {
+            margin-bottom: 52.5px;
         }
     }
     
@@ -978,6 +985,27 @@
             align-items: center;
             flex-direction: column;
             margin-left: 36px;
+            margin-right: 31px;
+        }
+    }
+    
+    .city-info-discribes-city__icon_mobile {
+        display: flex;
+    }
+    
+    @media (min-width:768px) {
+        .city-info-discribes-city__icon_mobile {
+            display: none;
+        }
+    }
+    
+    .city-info-discribes-city__icon_tablet {
+        display: none;
+    }
+    
+    @media (min-width:768px) {
+        .city-info-discribes-city__icon_tablet {
+            display: flex;
         }
     }
     
@@ -1769,10 +1797,6 @@
         .block-form__map-tablet {
             display: none;
         }
-    }
-    
-    .block-form__map-tablet {
-        display: none;
     }
     
     .block-form__map-desktop {
