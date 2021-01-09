@@ -2029,6 +2029,12 @@
         height: 84px;
     }
     
+    @media (min-width:768px) {
+        .catalog-modifier {
+            margin-top: -10px;
+        }
+    }
+    
     .catalog-header__logo {
         display: flex;
         justify-content: center;
@@ -2065,7 +2071,9 @@
         display: flex;
         position: absolute;
         right: 20px;
-        top: 20px;
+        top: -65px;
+        height: 22px;
+        width: 22.899999618530273px;
     }
     
     @media (min-width:768px) {
@@ -2123,7 +2131,7 @@
             flex-direction: column;
             position: relative;
             margin-top: -26px;
-            height: 518px;
+            height: 320px;
         }
     }
     
@@ -2156,7 +2164,7 @@
     @media (min-width: 768px) {
         .catalog-content__block-foto-and-video_picture--tablet {
             display: flex;
-            height: 518px;
+            height: 320px;
             width: 100%;
             position: absolute;
         }
@@ -2178,6 +2186,7 @@
     @media (min-width: 1200px) {
         .catalog-content__block-foto-and-video_picture--desktop {
             display: flex;
+            height: 320px;
         }
     }
     
@@ -2186,16 +2195,26 @@
         z-index: 2;
         justify-content: center;
         align-items: center;
-        margin-top: 52px;
+        margin-top: 80px;
     }
     
     @media (min-width: 768px) {
         .catalog-content__block-foto-and-video_sedona {
+            display: none;
+            z-index: 2;
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px;
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .catalog-content__block-foto-and-video_sedona-tablet {
             display: flex;
             justify-content: center;
             align-items: center;
             z-index: 1;
-            margin-top: 67px;
+            margin-top: 100px;
         }
     }
     
@@ -2230,7 +2249,7 @@
     @media (min-width: 768px) {
         .catalog-content__block-foto-and-video_intro-triangle--tablet {
             position: absolute;
-            top: 461px;
+            top: 264px;
             width: 100%;
         }
     }
@@ -2255,7 +2274,7 @@
             position: absolute;
             display: flex;
             width: 100%;
-            top: 462px;
+            top: 290px;
         }
     }
     
