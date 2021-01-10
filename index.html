@@ -13,38 +13,34 @@
 <body>
 
     <header class="header">
-
         <div class="header-wrapper">
-            <a class="header__image" href="#">
-                <img class="header__image" src="img/header/header__logo/logotype-mobile.svg" width="101px" height="84px" alt="">
-            </a>
+            <img class="header__image" src="./index_files/logotype-mobile.svg.svg" width="101px" height="84px" alt="">
 
             <ul class="header__top-menu">
-                <a class="header__list main--list" href="#">
-                    <li>Главная</li>
+                <a class="header__link header__link--main">
+                    <li class="header__list">Главная</li>
                 </a>
-                <a class="header__list foto--list" href="catalog.html">
-                    <li>Фото и видео</li>
+                <a class="header__link header__link--foto" href="catalog.html">
+                    <li class="header__list">Фото и видео</li>
                 </a>
-                <a class="header__logo" href="#">
-                    <img class="header__image" src="./index_files/logotype-mobile.svg.svg" href="#" width="101px" height="84px" alt="">
-                    <img class="header__image-tablet" src="img/header/header__logo/logotype-tablet.svg" href="#" width="101px" height="84px" alt="">
-                    <img class="header__image-desktop" src="img/header/header__logo/logotype-desktop.svg" href="#" width="101px" height="84px" alt="">
 
+                <a class="header__logo header__logo--tablet" href="index.html">
+                    <img class="header__image-tablet" src="img/header/logotype-tablet.svg.svg" width="101px" height="84px" alt="">
+                    <img class="header__image-desktop" src="img/header/logotype-desktop.svg.svg" width="101px" height="84px" alt="">
                 </a>
-                <a class="header__list callback--list" href="form.html">
-                    <li>Форма Отзыва</li>
+
+                <a class="header__link header__link--callback" href="form.html">
+                    <li class="header__list ">Форма Отзыва</li>
                 </a>
-                <a class="header__list academy--list" href="#">
-                    <li>HTML ACADEMY</li>
+                <a class="header__link header__link--html-academy">
+                    <li class="header__list ">HTML ACADEMY</li>
                 </a>
             </ul>
-        </div>
 
-
-        <div class="header__menu-mobile">
-            <div class="header__menu-burger">
-                <div class="header__menu-stripe">
+            <div class="header__menu-mobile">
+                <div class="header__menu-burger">
+                    <div class="header__menu-stripe">
+                    </div>
                 </div>
             </div>
         </div>
@@ -54,100 +50,117 @@
 
     <div class="main">
         <div class="sedona-city-block">
-            <img class="sedona-city-block__background" src="./index_files/back-mobile.jpg.jpg">
+            <img class="sedona-city-block__background" src="img/main/sedona-city-block/back-mobile.jpg">
             <img class="sedona-city-block__background-tablet" src="img/main/sedona-city-block/back-tablet.jpg">
 
-
-            <div class="sedona-city-block__vectors-block">
-                <img class="sedona-city-block__vector-block-mobile" src="img/main/sedona-city-block/intro-triangle-mobile.svg">
-                <img class="sedona-city-block__vectors-block-tablet" src="img/main/sedona-city-block/intro-triangle-tablet.svg">
-            </div>
             <div class="sedona-city-block__advertisement">
                 <img class="sedona-city-block__welcome" src="./index_files/welcome.png">
-                <img class="sedona-city-block__welcome-tablet" src="img/main/sedona-city-block/welcome-tablet.png">
-
-                <img class="sedona-city-block__gorgeous" src="./index_files/gorgeous.png">
-                <img class="sedona-city-block__gorgeous-tablet" src="img/main/sedona-city-block/gorgeous-tablet.png">
-
-                <img class="sedona-city-block__text" src="./index_files/sedona.png">
-                <img class="sedona-city-block__text-tablet" src="img/main/sedona-city-block/sedona-tablet.png">
+                <img class="sedona-city-block__welcome_tablet" src="img/main/sedona-city-block/welcome-tablet.svg">
+                <img class="sedona-city-block__welcome_desktop" src="img/main/sedona-city-block/welcome-tablet.svg">
 
 
-                <img class="sedona-city-block__grand-canyone" src="./index_files/grand-canyone.png">
-                <img class="sedona-city-block__grand-canyone-tablet" src="img/main/sedona-city-block/grand-canyone-tablet.png">
 
+
+                <img class="sedona-city-block__gorgeous" src="img/main/sedona-city-block/gorgeous.png">
+                <img class="sedona-city-block__gorgeous-tablet desktop" src="img/main/sedona-city-block/gorgeous-tablet.svg">
+
+
+
+
+                <img class="sedona-city-block__text" src="img/main/sedona-city-block/sedona-mobile.png">
+                <img class="sedona-city-block__text-tablet" src="img/main/sedona-city-block/sedona-tablet.svg">
+
+                <img class="sedona-city-block__grand-canyone" src="img/main/sedona-city-block/grand-canyone.png">
+                <img class="sedona-city-block__grand-canyone-tablet" src="img/main/sedona-city-block/grand-canyon-tablet.svg">
             </div>
+
+            <img class="sedona-city-block__vectors-block-desktop" src="img/main/sedona-city-block/intro-triangle-desktop.svg">
+
+            <img class="sedona-city-block__vectors-block-tablet" src="img/main/sedona-city-block/tablet-intro-triangle.svg">
+            <img class="sedona-city-block__vectors-block" src="img/main//sedona-city-block/intro-triangle.svg">
+
         </div>
 
 
         <div class="sedona-city-block-discribes-city">
-            <p class="sedona-city-block-discribes-city__description-header">СЕДОНА — небольшой городок в АРИЗОНЕ, зАСЛУЖИвающий большего!</p>
-            <p class="sedona-city-block-discribes-city__description-text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+
+            <div class="sedona-city-block-discribes-city-all">
+                <p class="sedona-city-block-discribes-city__description-header">СЕДОНА — небольшой городок в АРИЗОНЕ, зАСЛУЖИвающий большего!</p>
+                <p class="sedona-city-block-discribes-city__description-text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+            </div>
+
+            <img class="sedona-city-block-discribes-city--vectors-modifier" src="img/main/sedona-city-block/triangle-mobile-2.svg">
+
         </div>
+
+
 
 
         <div class="city-info">
-            <img class="city-info__two-vectors-block" src="img/main/sedona-city-block-discribes-city/sedona-city-block__vectors-block-2.svg">
 
             <div class="city-info__block">
-                <p class="city-info__city"> НАСТОЯЩИЙ ГОРОДОК </p>
-                <p class="city-info__number-1"> — №1 — </p>
-                <p class="city-info__tourist">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+                <div class="city-info__block-wrap">
+                    <p class="city-info__block-city"> НАСТОЯЩИЙ ГОРОДОК </p>
+                    <p class="city-info__block-number-1"> — №1 — </p>
+                    <p class="city-info__block-tourist">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+                </div>
             </div>
-            <img class="city-info-discribes-city__city-background" src="./index_files/photo-city.jpg" alt="">
-            <img class="city-info-discribes-city__city-background-desktop" src="img/main/sedona-city-block-discribes-city/photo-city@1x - desktop.jpg" alt="">
-
+            <img class="city-info__city-background" src="./index_files/photo-city.jpg" alt="">
+            <img class="city-info__city-background-tablet" src="img/main/city-info/photo-city@1x - tablet.jpg" alt="">
+            <img class="city-info__city-background-desktop" src="img/main/city-info-discribes-city/photo-city@1x - desktop.jpg" alt="">
         </div>
+
 
 
 
         <div class="city-info-discribes-city">
 
-            <div class="city-info-discribes-city__discribes">
-                <div class="city-info-discribes-city__advertising">
-                    <div class="city-info-discribes-city__advertising_icon-house">
-                        <img class="city-info-discribes-city__icon_mobile" src="./index_files/icon-house.svg.svg" alt="">
-                        <img class="city-info-discribes-city__icon_tablet" src="img/main/sedona-city-block-discribes-city/city--2__advertising/icon-house-tablet.svg" alt="">
+            <div class="city-info-discribes-city__discribes ">
+                <div class="city-info-discribes-city__advertising house-modifier">
+                    <div class="city-info-discribes-city__advertising_icon">
+                        <img class="icon" src="./index_files/icon-house.svg.svg" alt="">
+                        <img class="icon-tablet" src="img/main/city-info-discribes-city/city-info-discribes-city__advertising/tablet_icons/icon-house-tablet.svg.svg" alt="">
                     </div>
 
                     <div class="city-info-discribes-city__block">
                         <p class="city-info-discribes-city__text">
                             Жилье
                         </p>
-                        <p class="city-info-discribes-city__element"> РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЕ КАК В КИНО! </p>
-
-
+                        <p class="city-info-discribes-city__text-element">
+                            РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЕ КАК В КИНО!
+                        </p>
                     </div>
                 </div>
 
 
-                <div class="city-info-discribes-city__advertising order-desktop">
-                    <div class="city-info-discribes-city__icon-gift">
-                        <img class="city-info-discribes-city__icon_mobile" src="./index_files/icon-gift.svg.svg" alt="">
-                        <img class="city-info-discribes-city__icon_tablet" src="img/main/sedona-city-block-discribes-city/city--2__advertising/icon-gift-tablet.svg" alt="">
+                <div class="city-info-discribes-city__advertising last gift-modifier">
+                    <div class="city-info-discribes-city__advertising_icon">
+                        <img class="icon-tablet" src="img/main/city-info-discribes-city/city-info-discribes-city__advertising/tablet_icons/icon-gift-tablet.svg.svg" alt="">
+                        <img class="icon" src="img/main/city-info-discribes-city/city-info-discribes-city__advertising/icon-gift.svg.svg" alt="">
                     </div>
 
                     <div class="city-info-discribes-city__block">
                         <p class="city-info-discribes-city__text">
                             СУВЕНИРЫ
                         </p>
-                        <p class="city-info-discribes-city__element">НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
-
+                        <p class="city-info-discribes-city__text-element width-gift-text"> НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!
+                        </p>
                     </div>
                 </div>
 
-                <div class="city-info-discribes-city__advertising ">
-                    <div class="city-info-discribes-city__icon-burger">
-                        <img class="city-info-discribes-city__icon_mobile" src="./index_files/icon-burger.svg.svg" alt="">
-                        <img class="city-info-discribes-city__icon_tablet" src="img/main/sedona-city-block-discribes-city/city--2__advertising/icon-burger-tablet.svg" alt="">
-
+                <div class="city-info-discribes-city__advertising burger-modifier">
+                    <div class="city-info-discribes-city__advertising_icon">
+                        <img class="icon" src="img/main/city-info-discribes-city/city-info-discribes-city__advertising/icon-burger.svg" alt="">
+                        <img class="icon-tablet" src="img/main/city-info-discribes-city/city-info-discribes-city__advertising/tablet_icons/icon-burger-tablet.svg" alt="">
                     </div>
 
                     <div class="city-info-discribes-city__block">
                         <p class="city-info-discribes-city__text">
                             ЕДА
                         </p>
-                        <p class="city-info-discribes-city__element">ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
+                        <p class="city-info-discribes-city__text-element width-burger-text">ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!
+                        </p>
+
                     </div>
 
                 </div>
@@ -157,30 +170,25 @@
 
 
         <div class="block-info">
-
-            <img class="block-info__picture" src="./index_files/photo-bridge@1x 1.jpg" alt="">
-            <img class="block-info__picture-tablet" src="img/main/block-info/photo-bridge@1x-tablet.jpg" alt="">
-            <img class="block-info__picture-desktop" src="img/main/block-info/photo-bridge@1x-desktop.jpg" alt="">
-
-            <div class="block-info__block-text">
+            <div class="block-info__block-text wrap">
                 <p class="block-info__text">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</p>
                 <p class="block-info__2"> — №2 — </p>
                 <p class="block-info__go">ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ ВЫ ОСМЕЛИТЕСЬ, КОНЕЧНО</p>
             </div>
 
-
-
+            <img class="block-info__picture" src="./index_files/photo-bridge@1x 1.jpg" alt="">
+            <img class="block-info__picture-tablet" src="img/main/block-info/photo-bridge@1x-tablet.jpg" alt="">
+            <img class="block-info__picture-desktop" src="img/main/block-info/photo-bridge@1x-desktop.jpg" alt="">
 
         </div>
 
         <div class="block-info__list-discribes">
-
             <div class="block-info__items">
                 <div class="block-info-item">
                     <div class="block-info__item-inside width-desktop-1">
                         <p class="block-info__item-header">НЕБОЛЬШАЯ ПЛОЩАДЬ</p>
                         <p class="block-info__number">— №3 — </p>
-                        <p class="block-info__describe">ВСЕ ИНТЕРЕСНЫЕ МЕСТА НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+                        <p class="block-info__describe go-to-interesting-places">ВСЕ ИНТЕРЕСНЫЕ МЕСТА НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
                     </div>
                 </div>
 
@@ -189,23 +197,24 @@
                     <div class="block-info__item-inside width-desktop-2">
                         <p class="block-info__item-header"> КРАСИВАЯ ДОРОГА</p>
                         <p class="block-info__number"> — №4 —</p>
-                        <p class="block-info__describe">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</p>
+                        <p class="block-info__describe go-to-sedona">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</p>
                     </div>
                 </div>
 
 
-                <div class="block-info-item ">
-                    <div class="block-info__item-inside item-modifier">
+                <div class="block-info-item">
+                    <div class="block-info__item-inside width-desktop-3">
                         <p class="block-info__item-header"> МАЛО ТУРИСТОВ</p>
                         <p class="block-info__number"> — №5 —</p>
-                        <p class="block-info__describe"> БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ</p>
+                        <p class="block-info__describe go-to-grand-canyone"> БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ</p>
                     </div>
                 </div>
             </div>
 
         </div>
-
     </div>
+
+
 
 
 
@@ -226,10 +235,8 @@
         <form class="block-form__form" method="POST" action="https://echo.htmlacademy.ru/">
             <a class="form"></a>
         </form>
-
-        <img class="block-form__map" src="./index_files/map-mobile.jpg.png" alt="">
-        <img class="block-form__map-tablet" src="img/main/block-map/map-tablet.jpg" alt="">
-        <img class="block-form__map-desktop" src="img/main/block-map/map-desktop.jpg" alt="">
+        <iframe class="block-form__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1002961.8854761318!2d-112.55203571877519!3d34.338242660419354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1608487268704!5m2!1sru!2sru"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
     </div>
 
@@ -255,13 +262,12 @@
             </div>
 
 
+
             <div class="footer__logo">
                 <p class="footer__develop">РАЗРАБОТАНО</p>
                 <img class="footer__copyright form-modifier" src="img/footer/footer__logo/htmlacademy.svg">
             </div>
-
         </div>
-
     </footer>
 </body>
 
