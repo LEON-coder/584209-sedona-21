@@ -1924,6 +1924,17 @@ body {
     margin-top: -26px;
 }
 
+@media (min-width: 768px) {
+    .block-foto-and-video__picture-composite {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+        margin-top: -26px;
+        height: 320px;
+    }
+}
+
 .block-foto-and-video__picture {
     display: flex;
     width: 100%;
@@ -1974,7 +1985,20 @@ body {
 
 @media (min-width: 768px) {
     .block-foto-and-video__intro-triangle {
+        display: none;
+    }
+}
+
+.block-foto-and-video__intro-triangle-tablet {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .block-foto-and-video__intro-triangle-tablet {
         display: flex;
+        position: absolute;
+        bottom: -1px;
+        width: 100%;
     }
 }
 
