@@ -1,17 +1,37 @@
 .city-info-discribes-city {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
 }
+
+@media (min-width:768px) {
+.city-info-discribes-city {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+}
+
 
   .city-info-discribes-city__city-background {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.city-info-discribes-city__city-background-desktop {
+  display: none;
 }
 
   .city-info-discribes-city__discribes {
@@ -21,15 +41,59 @@
     flex-direction: column;
   }
 
+  @media (min-width:768px) { 
+    .city-info-discribes-city__discribes {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+  }
+
+  }
+
+
   .city-info-discribes-city__advertising {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
+
+  @media (min-width: 768px) {
+    .city-info-discribes-city__advertising {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
+
   .city-info-discribes-city__advertising_icon-house {
     display: flex;
     align-self: flex-start;
+  }
+
+
+  @media (min-width:768px) { 
+  .city-info-discribes-city__advertising_icon-house {
+    display: flex;
+    align-self: center;
+}
+
+  .city-info-discribes-city__icon_mobile {
+
+  }
+
+
+
+  @media (min-width:768px) { 
+    .city-info-discribes-city__icon_mobile {
+display: none;
+    }
+
+  .city-info-discribes-city__icon_tablet {
+display: none;
   }
 
   .city-info-discribes-city__block {
@@ -38,13 +102,37 @@
     flex-direction: column;
   }
 
-  .city-info-discribes-city__house-text {
+  .city-info-discribes-city__text {
+    width: 240px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
     display: flex;
-  }
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    mix-blend-mode: normal;
+    margin-top: 10px;
+}
 
-  .city-info-discribes-city__text-element {
+  .city-info-discribes-city__element {
+    width: 240px;
+    margin-top: 0px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+    
     display: flex;
-    margin-top: -24px;
+    align-items: center;
+    text-transform: uppercase;       
+    color: #333333;    
+    mix-blend-mode: normal;
+    
   }
 
    .city-info-discribes-city__icon-gift {
