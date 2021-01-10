@@ -47,6 +47,12 @@ body {
     }
 }
 
+@media (min-width: 768px) {
+    .catalog--modifier {
+        margin-top: 0px;
+    }
+}
+
 .header__logo {
     display: flex;
     justify-content: center;
@@ -1842,6 +1848,14 @@ body {
     width: 60px;
 }
 
+@media (min-width: 768px) {
+    .catalog-header__logo {
+        display: none;
+        justify-content: center;
+        width: 60px;
+    }
+}
+
 .catalog-header__image {
     display: flex;
     z-index: 3;
@@ -1861,6 +1875,15 @@ body {
     position: absolute;
     right: 20px;
     top: 20px;
+}
+
+@media (min-width: 768px) {
+    .catalog-header__icon-menu {
+        display: none;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
 }
 
 .burger-menu {
@@ -1907,6 +1930,18 @@ body {
     position: relative;
 }
 
+@media (min-width: 768px) {
+    .block-foto-and-video__picture {
+        display: flex;
+        width: 100%;
+        height: 320px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+
 .block-foto-and-video__sedona {
     position: absolute;
     display: flex;
@@ -1914,6 +1949,33 @@ body {
     align-items: center;
     top: 40%;
     left: 15%;
+}
+
+@media (min-width: 768px) {
+    .block-foto-and-video__sedona {
+        position: absolute;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        top: 40%;
+        left: 35%;
+    }
+}
+
+.block-foto-and-video__sedona-tablet {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .block-foto-and-video__sedona-tablet {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    .block-foto-and-video__intro-triangle {
+        display: flex;
+    }
 }
 
 .block-foto-and-video__foto-video-text {
@@ -1931,10 +1993,6 @@ body {
     justify-content: center;
 }
 
-.block-foto-and-video__foto-traveling-text {
-    display: flex;
-}
-
 .catalog-main__foto-gallery {
     background-image: url("catalog/img/catalog-main__foto-gallery/photo-1-mobile.jpg");
     display: flex;
@@ -1944,7 +2002,6 @@ body {
 
 .block-foto-and-video__foto-traveling-text {
     width: 299px;
-    height: 153px;
     font-family: PT Sans;
     font-style: normal;
     font-size: 18px;
@@ -1955,6 +2012,22 @@ body {
     text-transform: uppercase;
     color: #000000;
     mix-blend-mode: normal;
+}
+
+@media (min-width: 768px) {
+    .block-foto-and-video__foto-traveling-text {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        mix-blend-mode: normal;
+        width: 458px;
+    }
 }
 
 .catalog-main__foto-gallery-picture {
