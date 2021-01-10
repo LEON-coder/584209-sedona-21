@@ -6,9 +6,8 @@
   .block-foto-and-video {
     display: flex;
     width: 299px;
-    height: 137px;
     flex-direction: column;
-  }
+}
 
   .block-foto-and-video__foto-video-text {
     font-family: PT Sans;
@@ -50,51 +49,27 @@
     mix-blend-mode: normal;
   }
 
+  .block-foto-and-video__foto-traveling-text_border {
+    display: flex;
+  }
+
+
+
+  @media (min-width: 768px) {
+    .block-foto-and-video__foto-traveling-text_border {
+      display: none;
+    }
+   
+  }
+
   .catalog-main__foto-gallery_picture {
     display: flex;
   width: 90%;
   }
 
-  .foto-gallery__block-autor-landscape {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    color: #000000;
-    mix-blend-mode: normal;
-}
+  .foto-gallery__block-autor {
 
-@media (min-width: 1200px) {
-    .foto-gallery__block-autor-landscape {
-        font-family: 'PT Sans';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        display: flex;
-        align-items: flex-end;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        mix-blend-mode: normal;
-        width: max-content;
-    }
-}
-
-@media (min-width: 1200px) {
-    .catalog-main__foto-gallery_block-autor {
-        position: absolute;
-        bottom: 0;
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-        mix-blend-mode: normal;
-        background: rgba(0, 0, 0, 0.3);
-    }
-}
-
+  }
 
   .foto-gallery__block-autor_landscape {
     font-family: PT Sans;
