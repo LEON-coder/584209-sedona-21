@@ -1850,6 +1850,12 @@ body {
     display: none;
   }
 }
+@media (min-width: 768px) {
+  .catalog-modifier {
+    margin-top: -24px;
+    align-items: inherit;
+  }
+}
 .catalog-header__image {
   display: flex;
 }
@@ -1886,7 +1892,6 @@ body {
   position: relative;
   margin-top: -26px;
   height: 214px;
-  justify-content: center;
   align-items: center;
 }
 @media (min-width: 768px) {
@@ -1899,17 +1904,19 @@ body {
     height: 518px;
   }
 }
-.catalog-content__block-foto-and-video_picture {
+.catalog-content__picture {
   display: flex;
   width: 100%;
   position: absolute;
   height: 214px;
 }
 @media (min-width: 768px) {
-  .catalog-content__block-foto-and-video_picture {
-    display: none;
+  .catalog-content__picture {
+    display: flex;
     width: 100%;
     position: absolute;
+    top: 0;
+    height: 518px;
   }
 }
 .catalog-content__block-foto-and-video_picture--tablet {
@@ -1923,7 +1930,7 @@ body {
     position: absolute;
   }
 }
-.catalog-content__block-foto-and-video_sedona {
+.catalog-content__sedona {
   display: flex;
   z-index: 2;
   justify-content: center;
@@ -1933,15 +1940,25 @@ body {
   width: 229px;
 }
 @media (min-width: 768px) {
-  .catalog-content__block-foto-and-video_sedona {
+  .catalog-content__sedona {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .catalog-content__sedona--tablet {
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
     margin-top: 67px;
+    height: 77.59999847px;
+    width: 456.8999939px;
+    left: 157px;
+    top: 151px;
+    border-radius: 0px;
   }
 }
-.catalog-content__block-foto-and-video_intro-triangle {
+.catalog-content__intro-triangle {
   position: absolute;
   display: flex;
   bottom: -1px;
@@ -1950,7 +1967,7 @@ body {
   width: 100%;
 }
 @media (min-width: 1200px) {
-  .catalog-content__block-foto-and-video_intro-triangle {
+  .catalog-content__intro-triangle {
     position: absolute;
     display: none;
     bottom: -1px;
@@ -1959,7 +1976,7 @@ body {
   }
 }
 @media (min-width: 768px) {
-  .catalog-content__block-foto-and-video_intro-triangle--tablet {
+  .catalog-content__intro-triangle--tablet {
     position: absolute;
     top: 461px;
     width: 100%;
@@ -1967,14 +1984,14 @@ body {
   }
 }
 @media (min-width: 1200px) {
-  .catalog-content__block-foto-and-video_intro-triangle--tablet {
+  .catalog-content__intro-triangle--tablet {
     position: absolute;
     top: 461px;
     width: 100%;
     display: none;
   }
 }
-.catalog-content__block-foto-and-video_intro-triangle--desktop {
+.catalog-content__intro-triangle--desktop {
   position: absolute;
   top: 461px;
   display: none;

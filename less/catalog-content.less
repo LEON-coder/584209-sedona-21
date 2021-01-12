@@ -21,7 +21,7 @@
   position: relative;
   margin-top: -26px;
   height: 214px;
-  justify-content: center;
+
   align-items: center;
 }
 @media (min-width: 768px) {
@@ -35,17 +35,19 @@
   }
 }
 
-.catalog-content__block-foto-and-video_picture {
+.catalog-content__picture {
   display: flex;
   width: 100%;
   position: absolute;
   height: 214px;
 }
 @media (min-width: 768px) {
-  .catalog-content__block-foto-and-video_picture {
-    display: none;
+  .catalog-content__picture {
+    display: flex;
     width: 100%;
     position: absolute;
+    top: 0;
+    height: 518px;
   }
 }
 .catalog-content__block-foto-and-video_picture--tablet {
@@ -60,7 +62,7 @@
   }
 }
 
-.catalog-content__block-foto-and-video_sedona {
+.catalog-content__sedona {
   display: flex;
   z-index: 2;
   justify-content: center;
@@ -69,16 +71,33 @@
   height: 39px;
   width: 229px;
 }
+
+@media (min-width: 768px) { 
+  .catalog-content__sedona {
+  display: none;
+ 
+}
+}
+
+
+
 @media (min-width: 768px) {
-  .catalog-content__block-foto-and-video_sedona {
+  .catalog-content__sedona--tablet {
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
     margin-top: 67px;
-  }
+    height: 77.5999984741211px;
+    width: 456.8999938964844px;
+    left: 157px;
+    top: 151px;
+    border-radius: 0px;
 }
-.catalog-content__block-foto-and-video_intro-triangle {
+  }
+
+  
+.catalog-content__intro-triangle {
   position: absolute;
   display: flex;
   bottom: -1px;
@@ -87,7 +106,7 @@
   width: 100%;
 }
 @media (min-width: 1200px) {
-  .catalog-content__block-foto-and-video_intro-triangle {
+  .catalog-content__intro-triangle {
     position: absolute;
     display: none;
     bottom: -1px;
@@ -96,7 +115,7 @@
   }
 }
 @media (min-width: 768px) {
-  .catalog-content__block-foto-and-video_intro-triangle--tablet {
+  .catalog-content__intro-triangle--tablet {
     position: absolute;
     top: 461px;
     width: 100%;
@@ -104,14 +123,14 @@
   }
 }
 @media (min-width: 1200px) {
-  .catalog-content__block-foto-and-video_intro-triangle--tablet {
+  .catalog-content__intro-triangle--tablet {
     position: absolute;
     top: 461px;
     width: 100%;
     display: none;
   }
 }
-.catalog-content__block-foto-and-video_intro-triangle--desktop {
+.catalog-content__intro-triangle--desktop {
   position: absolute;
   top: 461px;
   display: none;
