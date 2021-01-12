@@ -2059,7 +2059,7 @@ body {
   .catalog-main__foto-gallery {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 648px;
     justify-content: center;
   }
 }
@@ -2078,6 +2078,14 @@ body {
     display: flex;
     height: 267px;
     width: 324px;
+  }
+}
+.catalog-main__foto-gallery_picture-landscapes {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .catalog-main__foto-gallery_picture-landscapes {
+    display: none;
   }
 }
 @media (min-width: 768px) {
@@ -2099,10 +2107,12 @@ body {
   display: none;
 }
 @media (min-width: 768px) {
-  display: flex;
-  width: 648px;
-  justify-content: center;
-  align-self: center;
+  .tablet-landscapes {
+    display: flex;
+    width: 648px;
+    justify-content: center;
+    align-self: center;
+  }
 }
 @media (min-width: 768px) {
   display: flex;
