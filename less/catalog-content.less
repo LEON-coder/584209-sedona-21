@@ -10,7 +10,7 @@
 }
 .catalog-content__block-foto-and-video {
   display: flex;
-  width: 100%;
+      width: 100%;
   flex-direction: column;
   align-items: center;
 }
@@ -21,6 +21,8 @@
   position: relative;
   margin-top: -26px;
   height: 214px;
+  justify-content: center;
+  align-items: center;
 }
 @media (min-width: 768px) {
   .catalog-content__block-foto-and-video_picture-composite {
@@ -32,9 +34,7 @@
     height: 518px;
   }
 }
-.catalog-content__block-foto-and-video_sedona {
-  display: flex;
-}
+
 .catalog-content__block-foto-and-video_picture {
   display: flex;
   width: 100%;
@@ -59,12 +59,15 @@
     position: absolute;
   }
 }
+
 .catalog-content__block-foto-and-video_sedona {
   display: flex;
   z-index: 2;
   justify-content: center;
   align-items: center;
-  margin-top: 52px;
+  margin-top: 0px;
+  height: 39px;
+  width: 229px;
 }
 @media (min-width: 768px) {
   .catalog-content__block-foto-and-video_sedona {
@@ -81,6 +84,7 @@
   bottom: -1px;
   justify-content: center;
   align-self: center;
+  width: 100%;
 }
 @media (min-width: 1200px) {
   .catalog-content__block-foto-and-video_intro-triangle {
@@ -147,6 +151,7 @@
   color: #333333;
   mix-blend-mode: normal;
   display: flex;
+  margin-bottom: 43px;
 }
 @media (min-width: 768px) {
   .catalog-content__block-foto-and-video_foto-traveling-text {
@@ -164,3 +169,4 @@
     width: 458px;
   }
 }
+
