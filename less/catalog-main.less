@@ -3,10 +3,35 @@
   .catalog-main__foto-gallery {
 display: flex;
     flex-direction: column;
-    width: 90%;
+   width: 100%;
   }
   
   
+  @media (min-width: 768px) {  
+
+     .catalog-main__foto-gallery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    
+}
+  }
+
+
+  .catalog-main__foto-gallery__3-blocks {
+
+  }
+
+
+  @media (min-width: 768px) { 
+    .catalog-main__foto-gallery__3-blocks {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+ 
   
   
   .catalog-main__foto-gallery_picture {
@@ -14,9 +39,65 @@ display: flex;
  width: 100%;
   }
 
+  @media (min-width: 768px) {  
+.catalog-main__foto-gallery_picture {
+    display: flex;
+ width: 100%;
+  }
+
+  }
+  
+
+
+  height: 267px;
+    width: 324px;
+
+  @media (min-width: 768px) { 
+.width-tablet-modifier {
+height: 267px;
+    width: 324px;
+  }
+  }
+  
+
+
+  @media (min-width: 768px) { 
+ .catalog-main__foto-gallery_picture {
+  display: none;
+  height: 400px;
+  }
+  }
+
+
+
+  .tablet-landscapes {
+    display: none;
+  }
+
+  @media (min-width: 768px) { 
+    .tablet-landscapes {
+      display: flex;
+    }
+  }
+
+
+
+
+  @media (min-width: 768px) {  
+    display: flex;
+
+  }
+ 
   .foto-gallery__block-autor {
 
   }
+
+
+  @media (min-width: 768px) {  
+    .foto-gallery__block-autor {
+      margin-left: 20px;
+  }
+    }
 
   .foto-gallery__block-autor-landscape {
     font-family: PT Sans;

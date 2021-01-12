@@ -1901,7 +1901,7 @@ body {
     flex-direction: column;
     position: relative;
     margin-top: -26px;
-    height: 518px;
+    height: 320px;
   }
 }
 .catalog-content__picture {
@@ -1916,7 +1916,7 @@ body {
     width: 100%;
     position: absolute;
     top: 0;
-    height: 518px;
+    height: 320px;
   }
 }
 .catalog-content__block-foto-and-video_picture--tablet {
@@ -1950,7 +1950,7 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 1;
-    margin-top: 67px;
+    margin-top: 110px;
     height: 77.59999847px;
     width: 456.8999939px;
     left: 157px;
@@ -1960,7 +1960,7 @@ body {
 }
 .catalog-content__intro-triangle {
   position: absolute;
-  display: flex;
+  display: none;
   bottom: -1px;
   justify-content: center;
   align-self: center;
@@ -1978,9 +1978,9 @@ body {
 @media (min-width: 768px) {
   .catalog-content__intro-triangle--tablet {
     position: absolute;
-    top: 461px;
+    top: 285px;
     width: 100%;
-    display: none;
+    display: flex;
   }
 }
 @media (min-width: 1200px) {
@@ -2017,6 +2017,7 @@ body {
   mix-blend-mode: normal;
   display: flex;
   justify-content: center;
+  margin-top: 64px;
 }
 .catalog-content__block-foto-and-video_foto-traveling-text {
   width: 299px;
@@ -2052,11 +2053,53 @@ body {
 .catalog-main__foto-gallery {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .catalog-main__foto-gallery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .catalog-main__foto-gallery__3-blocks {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .catalog-main__foto-gallery_picture {
   display: flex;
   width: 100%;
+}
+@media (min-width: 768px) {
+  .width-tablet-modifier {
+    height: 267px;
+    width: 324px;
+  }
+}
+@media (min-width: 768px) {
+  .catalog-main__foto-gallery_picture {
+    display: none;
+    height: 400px;
+  }
+}
+.tablet-landscapes {
+  display: none;
+}
+@media (min-width: 768px) {
+  .tablet-landscapes {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .foto-gallery__block-autor {
+    margin-left: 20px;
+  }
 }
 .foto-gallery__block-autor-landscape {
   font-family: PT Sans;
