@@ -17,6 +17,17 @@
 }
 
 
+@media (min-width: 1200px) {
+.catalog-main__foto-gallery {
+    display: flex;
+  width: 1200px;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+}
+
+
 .catalog-main__foto-gallery_picture {
   display: flex;
   width: 100%;
@@ -24,7 +35,7 @@
 
 @media (min-width: 768px) {
   .catalog-main__foto-gallery_picture {
-    display: flex;
+        display: none;
     height: 267px;
     width: 324px;
   }
@@ -65,6 +76,17 @@
     justify-content: center;
     align-self: center;
   }
+}
+
+@media (min-width: 1200px) {
+.tablet-landscapes {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    height: 400px;
+    border-radius: 0px;
+}
 }
 
 @media (min-width: 768px) {
@@ -167,5 +189,13 @@ width: auto;
     width: 324px;
   }
 
+}
+
+@media (min-width: 1200px) {
+    .desktop-modifier {
+        height: 267px;
+        width: 400px;
+        border-radius: 0px;
+    }
 }
 
