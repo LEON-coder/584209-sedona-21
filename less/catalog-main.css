@@ -6,10 +6,10 @@
 @media (min-width: 768px) {
   .catalog-main__foto-gallery {
     display: flex;
-    flex-direction: column;
     width: 648px;
-    justify-content: center;
-    height: 480px;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 .catalog-main__foto-gallery_picture {
@@ -59,6 +59,14 @@
   .foto-gallery__block-autor {
     margin-left: 20px;
     height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 768px) {
+  .foto-gallery__block-common-text {
+    width: auto;
   }
 }
 .foto-gallery__block-autor-landscape {
@@ -113,12 +121,11 @@
 }
 @media (min-width: 768px) {
   .margin-modifier {
-    margin-top: 37px;
+    margin-top: 0;
   }
 }
 @media (min-width: 768px) {
   .width-tablet-modifier {
     height: 267px;
-    width: 324px;
   }
 }
