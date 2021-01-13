@@ -57,11 +57,13 @@
 }
 @media (min-width: 768px) {
   .foto-gallery__block-autor {
-    margin-left: 20px;
+    padding-left: 20px;
     height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background: #F2F2F2;
+    mix-blend-mode: normal;
   }
 }
 @media (min-width: 768px) {
@@ -69,8 +71,8 @@
     width: auto;
   }
 }
-.foto-gallery__block-autor-landscape {
-  font-family: PT Sans;
+.foto-gallery__block-autor_landscape {
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -104,7 +106,7 @@
 .foto-gallery__number {
   width: 61px;
   height: 24px;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -119,6 +121,11 @@
 @media (min-width: 768px) {
   .margin-modifier {
     margin-top: 0;
+  }
+}
+@media (min-width: 768px) {
+  .width-tablet {
+    width: 324px;
   }
 }
 @media (min-width: 768px) {
