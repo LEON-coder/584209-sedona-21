@@ -1875,6 +1875,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 768px) {
+  .catalog-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
 .catalog-content-picture {
   display: flex;
   margin-top: -25px;
@@ -1935,7 +1942,7 @@ body {
   z-index: 2;
   justify-content: center;
   align-items: center;
-  margin-top: 0px;
+  margin-top: 80px;
   height: 39px;
   width: 229px;
 }
@@ -1943,6 +1950,9 @@ body {
   .catalog-content__sedona {
     display: none;
   }
+}
+.catalog-content__sedona--tablet {
+  display: none;
 }
 @media (min-width: 768px) {
   .catalog-content__sedona--tablet {
@@ -1953,9 +1963,6 @@ body {
     margin-top: 110px;
     height: 77.59999847px;
     width: 456.8999939px;
-    left: 157px;
-    top: 151px;
-    border-radius: 0px;
   }
 }
 .catalog-content__intro-triangle {
@@ -1974,6 +1981,12 @@ body {
     justify-content: center;
     align-self: center;
   }
+}
+.catalog-content__intro-triangle--tablet {
+  position: absolute;
+  top: 285px;
+  width: 100%;
+  display: none;
 }
 @media (min-width: 768px) {
   .catalog-content__intro-triangle--tablet {
@@ -2053,7 +2066,7 @@ body {
 .catalog-main__foto-gallery {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 280px;
 }
 @media (min-width: 768px) {
   .catalog-main__foto-gallery {
@@ -2061,12 +2074,7 @@ body {
     flex-direction: column;
     width: 648px;
     justify-content: center;
-  }
-}
-@media (min-width: 768px) {
-  .catalog-main__foto-gallery__3-blocks {
-    display: flex;
-    flex-wrap: wrap;
+    height: 480px;
   }
 }
 .catalog-main__foto-gallery_picture {
@@ -2089,18 +2097,13 @@ body {
   }
 }
 @media (min-width: 768px) {
-  .width-tablet-modifier {
-    width: 648px;
-  }
-}
-@media (min-width: 768px) {
   .margin-left-picture {
-    margin-left: 60px;
+    margin-left: 0;
   }
 }
 @media (min-width: 768px) {
   .margin-right-picture {
-    margin-right: 60px;
+    margin-right: 0;
   }
 }
 .tablet-landscapes {
@@ -2120,6 +2123,7 @@ body {
 @media (min-width: 768px) {
   .foto-gallery__block-autor {
     margin-left: 20px;
+    height: 80px;
   }
 }
 .foto-gallery__block-autor-landscape {
@@ -2175,6 +2179,12 @@ body {
 @media (min-width: 768px) {
   .margin-modifier {
     margin-top: 37px;
+  }
+}
+@media (min-width: 768px) {
+  .width-tablet-modifier {
+    height: 267px;
+    width: 324px;
   }
 }
 .block-presentation {
