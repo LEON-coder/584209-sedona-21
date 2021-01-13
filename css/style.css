@@ -1632,6 +1632,7 @@ body {
 @media (min-width: 1200px) {
   .block-form__map-desktop {
     display: flex;
+    width: 100%;
   }
 }
 .footer {
@@ -1668,6 +1669,18 @@ body {
     justify-content: space-between;
     width: 90%;
     height: auto;
+    margin-top: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .footer__central-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+    margin-top: 0;
   }
 }
 .footer__link {
@@ -2181,17 +2194,15 @@ body {
   color: #000000;
   mix-blend-mode: normal;
 }
-.margin-modifier {
-  margin-top: 37px;
-}
 @media (min-width: 768px) {
   .margin-modifier {
     margin-top: 0;
   }
 }
 @media (min-width: 768px) {
-  .width-tablet-modifier {
+  .catalog-tablet--modifier {
     height: 267px;
+    width: 324px;
   }
 }
 .block-presentation {

@@ -116,16 +116,14 @@
   color: #000000;
   mix-blend-mode: normal;
 }
-.margin-modifier {
-  margin-top: 37px;
-}
 @media (min-width: 768px) {
   .margin-modifier {
     margin-top: 0;
   }
 }
 @media (min-width: 768px) {
-  .width-tablet-modifier {
+  .catalog-tablet--modifier {
     height: 267px;
+    width: 324px;
   }
 }
