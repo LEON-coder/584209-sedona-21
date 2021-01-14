@@ -27,11 +27,11 @@
     margin-left: 0px;
   }
 }
-.picture-desktop-width {
+.picture-tablet {
   display: none;
 }
 @media (min-width: 768px) {
-  .picture-desktop-width {
+  .picture-tablet {
     display: flex;
   }
 }
