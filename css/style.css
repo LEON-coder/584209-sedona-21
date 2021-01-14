@@ -2103,6 +2103,9 @@ body {
   display: flex;
   width: 100%;
 }
+.picture-desktop-width {
+  display: none;
+}
 @media (min-width: 768px) {
   .catalog-main__foto-gallery_picture {
     display: none;
@@ -2313,6 +2316,13 @@ body {
     mix-blend-mode: normal;
   }
 }
+.block-presentation__video-player-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 0px;
+  position: relative;
+}
 @media (min-width: 768px) {
   .block-presentation__video-player-block {
     display: flex;
@@ -2340,11 +2350,11 @@ body {
 }
 .block-presentation__elements-control {
   display: flex;
-  width: 253px;
   align-self: center;
   flex-direction: column;
   position: relative;
   margin-top: -45px;
+  width: 100%;
 }
 @media (min-width: 768px) {
   .block-presentation__elements-control {
@@ -2380,6 +2390,9 @@ body {
     display: flex;
   }
 }
+.block-presentation__player-block {
+  display: flex;
+}
 @media (min-width: 768px) {
   .block-presentation__player-block {
     display: flex;
@@ -2390,8 +2403,8 @@ body {
   display: flex;
   z-index: 2;
   position: absolute;
-  top: 45%;
-  left: 10px;
+  top: 20%;
+  left: 40px;
 }
 @media (min-width: 768px) {
   .block-presentation__player-volume-scale {
@@ -2409,7 +2422,7 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 36%;
+  top: 16%;
   left: 20%;
 }
 @media (min-width: 768px) {
@@ -2438,8 +2451,11 @@ body {
   }
 }
 .block-presentation__player-replay {
-  display: none;
+  display: flex;
   margin-left: 25px;
+}
+.block-presentation__player-replay-tablet {
+  display: none;
 }
 .block-presentation__player-subtitles {
   display: flex;
@@ -2452,6 +2468,9 @@ body {
     margin-left: 120px;
     align-self: center;
   }
+}
+.block-presentation__player-subtitles-tablet {
+  display: none;
 }
 @media (min-width: 768px) {
   .block-presentation__player-subtitles-tablet {
@@ -2469,6 +2488,9 @@ body {
     align-self: center;
     margin-right: 20px;
   }
+}
+.block-presentation__player-fullscreen-tablet {
+  display: none;
 }
 @media (min-width: 768px) {
   .block-presentation__player-fullscreen-tablet {
