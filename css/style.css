@@ -2340,11 +2340,12 @@ body {
   .block-presentation__elements-control {
     align-items: center;
     display: flex;
-    width: 100%;
     justify-content: space-evenly;
     background: #000000;
     mix-blend-mode: normal;
     opacity: 0.6;
+    height: 93px;
+    width: 648px;
   }
 }
 .block-presentation__player-background {
@@ -2352,6 +2353,14 @@ body {
   justify-content: center;
   align-self: center;
   position: relative;
+}
+@media (min-width: 768px) {
+  .block-presentation__player-background {
+    display: none;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+  }
 }
 .block-presentation__player-background-tablet {
   display: none;
@@ -2368,6 +2377,17 @@ body {
   position: absolute;
   top: 45%;
   left: 10px;
+}
+@media (min-width: 768px) {
+  .block-presentation__player-volume-scale {
+    display: flex;
+    z-index: 2;
+    width: 389px;
+    height: 3px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+  }
 }
 .block-presentation__player-volume-slider {
   display: flex;
@@ -2386,11 +2406,14 @@ body {
 }
 @media (min-width: 768px) {
   .block-presentation__replay-and-subtitles {
-    display: none;
+    display: flex;
+    background: none;
+    align-items: center;
+    width: auto;
   }
 }
 .block-presentation__player-replay {
-  display: flex;
+  display: none;
   margin-left: 25px;
 }
 .block-presentation__player-subtitles {
@@ -2398,10 +2421,34 @@ body {
   margin-left: 120px;
   align-self: center;
 }
+@media (min-width: 768px) {
+  .block-presentation__player-subtitles {
+    display: none;
+    margin-left: 120px;
+    align-self: center;
+  }
+}
+@media (min-width: 768px) {
+  .block-presentation__player-subtitles-tablet {
+    display: flex;
+  }
+}
 .block-presentation__player-fullscreen {
   display: flex;
   align-self: center;
   margin-right: 20px;
+}
+@media (min-width: 768px) {
+  .block-presentation__player-fullscreen {
+    display: none;
+    align-self: center;
+    margin-right: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .block-presentation__player-fullscreen-tablet {
+    display: flex;
+  }
 }
 /* Стили для страницы формы */
 .form__main-contain__picture {

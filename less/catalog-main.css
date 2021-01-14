@@ -81,10 +81,6 @@
 }
 
 @media (min-width: 768px) {
-    display: flex;
-}
-
-@media (min-width: 768px) {
     .foto-gallery__block-autor {
         padding-left: 20px;
         height: 80px;
