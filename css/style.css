@@ -2313,6 +2313,16 @@ body {
     mix-blend-mode: normal;
   }
 }
+@media (min-width: 768px) {
+  .block-presentation__video-player-block {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 648px;
+    border-radius: 0px;
+    position: relative;
+  }
+}
 .block-presentation__video-player {
   background: url(video-desktop.jpg);
   display: flex;
@@ -2370,6 +2380,11 @@ body {
     display: flex;
   }
 }
+@media (min-width: 768px) {
+  .block-presentation__player-block {
+    display: flex;
+  }
+}
 .block-presentation__player-volume-scale {
   width: 235px;
   display: flex;
@@ -2396,6 +2411,16 @@ body {
   position: absolute;
   top: 36%;
   left: 20%;
+}
+@media (min-width: 768px) {
+  .block-presentation__player-volume-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 41%;
+    left: 20%;
+  }
 }
 .block-presentation__replay-and-subtitles {
   display: flex;
