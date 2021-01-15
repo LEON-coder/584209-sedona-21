@@ -2107,6 +2107,7 @@ body {
 @media (min-width: 768px) {
   .picture-tablet {
     width: 324px;
+    display: none;
   }
 }
 @media (min-width: 768px) {
@@ -2162,7 +2163,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background: #F2F2F2;
+    background: rgba(0, 0, 0, 0.3);
     mix-blend-mode: normal;
   }
 }
@@ -2334,6 +2335,7 @@ body {
     width: 648px;
     border-radius: 0px;
     position: relative;
+    margin-top: 67px;
   }
 }
 .block-presentation__video-player {
@@ -2344,8 +2346,8 @@ body {
 }
 @media (min-width: 768px) {
   .block-presentation__video-player {
-    display: flex;
-    margin-top: 67px;
+    display: none;
+    margin-top: 0;
     height: 500px;
     width: 648px;
     border-radius: 0px;

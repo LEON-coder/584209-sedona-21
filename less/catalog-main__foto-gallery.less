@@ -34,12 +34,37 @@
     display: none;
 }
 
+media (min-width: 768px)
+.picture-tablet {
+    width: 324px;
+    display: none;
+}
+}
+
+
+@media (min-width: 1200px) {
+  .picture-tablet {
+    display: flex;
+  }
+  }
+
+
+  .picture-desktop {
+    display: none;
+    }
+
 
 @media (min-width: 768px) {
-.picture-tablet {
+.picture-desktop {
+display: none;
+}
+
+
+@media (min-width: 1200px) {
+  .picture-desktop {
   display: flex;
-}
-}
+  }
+
   .catalog-main__foto-gallery-block {
     display: flex;
     flex-direction: column;
