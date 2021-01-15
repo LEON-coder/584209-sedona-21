@@ -187,8 +187,7 @@ display: flex;
 @media (min-width: 768px) {
 .block-presentation__elements-control {
  align-items: center;
-    display: flex;
-    justify-content: space-evenly;
+    display: flex;   
     background: #000000;
     mix-blend-mode: normal;
     opacity: 0.6;
@@ -203,8 +202,7 @@ display: flex;
 .block-presentation__elements-control {
  align-items: center;
     display: flex;
-   justify-content: space-around;
-    background: #000000;
+      background: #000000;
     mix-blend-mode: normal;
     opacity: 0.6;
     height: 93px;
@@ -242,11 +240,17 @@ display: flex;
 }
 }
 
+
 @media (min-width: 1200px) {
 .block-presentation__player-background-tablet {
-    display: flex;
-    margin-left: 35px;
+  display: flex;
+  margin-left: 35px;
+    margin-right: 42px;
 }
+}
+
+
+
 
 .block-presentation__player-block {
   display:flex;
@@ -262,9 +266,6 @@ display:flex;
   width: 235px;
   display: flex;
   z-index: 2;
-  position: absolute;
- top: 20%;
-    left: 40px;
 }
 
 @media (min-width: 768px) {
@@ -285,8 +286,8 @@ display:flex;
 .block-presentation__player-volume-scale {
     display: flex;
     z-index: 2;
-    width: 389px;
-    height: 3px;
+   height: 3px;
+    width: 540px;
     background: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.2;
@@ -318,6 +319,20 @@ display:flex;
 }
 }
 
+
+
+@media (min-width: 1200px) {
+.block-presentation__player-volume-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+   top: 44%;
+    left: 35%;
+}
+}
+
+
 @media (min-width: 1200px) {
 .block-presentation__player-replay {
     display: none;
@@ -333,7 +348,7 @@ display:flex;
   justify-content: space-between;
   background: #F2F2F2;
   height: 66px;
-  width: 280px;
+ 
 }
 
 @media (min-width: 768px) {
@@ -341,7 +356,7 @@ display:flex;
       display: flex;
     background: none;
     align-items: center;
-    width: auto;
+   
 }
 }
 
@@ -382,6 +397,18 @@ display:flex;
 display:flex;
 }
 }
+
+
+
+@media (min-width: 1200px) {
+.block-presentation__player-subtitles-tablet {
+    display: flex;
+    margin-right: 31px;  
+    margin-left: 42px;
+}
+}
+
+
 .block-presentation__player-fullscreen {
   display: flex;
   align-self: center;

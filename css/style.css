@@ -1654,6 +1654,11 @@ body {
     height: 120px;
   }
 }
+@media (min-width: 1200px) {
+  .footer {
+    margin-top: 85px;
+  }
+}
 .footer__central-block {
   display: flex;
   flex-direction: column;
@@ -2407,7 +2412,6 @@ body {
   .block-presentation__elements-control {
     align-items: center;
     display: flex;
-    justify-content: space-evenly;
     background: #000000;
     mix-blend-mode: normal;
     opacity: 0.6;
@@ -2419,13 +2423,14 @@ body {
   .block-presentation__elements-control {
     align-items: center;
     display: flex;
-    justify-content: space-around;
     background: #000000;
     mix-blend-mode: normal;
     opacity: 0.6;
     height: 93px;
     width: 100%;
     flex-direction: row;
+    position: absolute;
+    bottom: 0;
   }
 }
 .block-presentation__player-background {
@@ -2450,6 +2455,13 @@ body {
     display: flex;
   }
 }
+@media (min-width: 1200px) {
+  .block-presentation__player-background-tablet {
+    display: flex;
+    margin-left: 35px;
+    margin-right: 42px;
+  }
+}
 .block-presentation__player-block {
   display: flex;
 }
@@ -2462,9 +2474,6 @@ body {
   width: 235px;
   display: flex;
   z-index: 2;
-  position: absolute;
-  top: 20%;
-  left: 40px;
 }
 @media (min-width: 768px) {
   .block-presentation__player-volume-scale {
@@ -2481,8 +2490,8 @@ body {
   .block-presentation__player-volume-scale {
     display: flex;
     z-index: 2;
-    width: 389px;
     height: 3px;
+    width: 540px;
     background: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.2;
@@ -2508,6 +2517,16 @@ body {
   }
 }
 @media (min-width: 1200px) {
+  .block-presentation__player-volume-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 44%;
+    left: 35%;
+  }
+}
+@media (min-width: 1200px) {
   .block-presentation__player-replay {
     display: none;
     margin-left: 25px;
@@ -2518,14 +2537,12 @@ body {
   justify-content: space-between;
   background: #F2F2F2;
   height: 66px;
-  width: 280px;
 }
 @media (min-width: 768px) {
   .block-presentation__replay-and-subtitles {
     display: flex;
     background: none;
     align-items: center;
-    width: auto;
   }
 }
 @media (min-width: 1200px) {
@@ -2554,6 +2571,13 @@ body {
 @media (min-width: 768px) {
   .block-presentation__player-subtitles-tablet {
     display: flex;
+  }
+}
+@media (min-width: 1200px) {
+  .block-presentation__player-subtitles-tablet {
+    display: flex;
+    margin-right: 31px;
+    margin-left: 42px;
   }
 }
 .block-presentation__player-fullscreen {
