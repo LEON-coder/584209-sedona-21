@@ -2196,7 +2196,6 @@ body {
 }
 @media (min-width: 768px) {
   .foto-gallery__block-autor {
-    padding-left: 20px;
     height: 80px;
     width: 100%;
     display: flex;
@@ -2207,7 +2206,6 @@ body {
 }
 @media (min-width: 1200px) {
   .foto-gallery__block-autor {
-    padding-left: 20px;
     height: 80px;
     width: 100%;
     display: flex;
@@ -2234,6 +2232,13 @@ body {
     height: 43px;
     color: #FFFFFF;
     mix-blend-mode: normal;
+    padding-left: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .foto-gallery__block-common-text {
+    height: 36px;
+    width: 142px;
   }
 }
 .foto-gallery__block-autor_landscape {
@@ -2267,6 +2272,21 @@ body {
     mix-blend-mode: normal;
   }
 }
+@media (min-width: 1200px) {
+  .foto-gallery__block-autor_landscape {
+    margin-top: 22px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+  }
+}
 .foto-gallery__autor {
   width: 175px;
   display: flex;
@@ -2288,14 +2308,12 @@ body {
 @media (min-width: 1200px) {
   .foto-gallery__autor {
     width: 175px;
-    height: 43px;
     font-family: "PT Sans";
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
     display: flex;
     align-items: flex-end;
-    text-transform: uppercase;
     color: #FFFFFF;
     mix-blend-mode: normal;
   }
@@ -2306,7 +2324,21 @@ body {
 }
 .foto-gallery__like-icon {
   margin-right: 15px;
+  display: flex;
+}
+@media (min-width: 1200px) {
+  .foto-gallery__like-icon {
+    margin-right: 15px;
+    display: none;
+  }
+}
+.foto-gallery__like-icon-desktop {
   display: none;
+}
+@media (min-width: 1200px) {
+  .foto-gallery__like-icon-desktop {
+    display: flex;
+  }
 }
 .foto-gallery__number {
   width: 61px;
@@ -2325,7 +2357,22 @@ body {
 }
 @media (min-width: 1200px) {
   .foto-gallery__number {
-    display: none;
+    margin-left: 9px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+  }
+}
+@media (min-width: 1200px) {
+  foto-gallery__number--desktop {
+    display: flex;
   }
 }
 @media (min-width: 768px) {
