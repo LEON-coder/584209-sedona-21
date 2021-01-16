@@ -36,13 +36,39 @@
 
 
 .picture-tablet{
-   
+    display: none;
 }
 
 @media (min-width: 768px) {
 .picture-tablet {
     width: 324px;
-    display: none;
+       display: flex;
+}
+}
+
+
+@media (min-width: 1200px) {
+.picture-tablet {
+    width: 324px;
+       display: none;
+}
+}
+
+
+.picture-desktop {
+   display: none;
+}
+
+@media (min-width: 768px) {
+.picture-desktop {
+   display: none;
+}
+}
+
+
+@media (min-width: 1200px) {
+.picture-desktop {
+   display: flex;
 }
 }
 
