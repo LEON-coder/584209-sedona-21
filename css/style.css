@@ -2216,6 +2216,7 @@ body {
     position: absolute;
     bottom: 0;
     background: rgba(0, 0, 0, 0.3);
+    z-index: 2;
   }
 }
 @media (min-width: 768px) {
@@ -2273,6 +2274,21 @@ body {
 @media (min-width: 768px) {
   .foto-gallery__autor {
     height: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .foto-gallery__autor {
+    width: 175px;
+    height: 43px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
   }
 }
 .foto-gallery__vote {
