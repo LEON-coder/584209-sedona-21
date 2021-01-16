@@ -2316,6 +2316,7 @@ body {
     align-items: flex-end;
     color: #FFFFFF;
     mix-blend-mode: normal;
+    margin-top: 25px;
   }
 }
 .foto-gallery__vote {
@@ -2368,6 +2369,7 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     mix-blend-mode: normal;
+    margin-top: 5px;
   }
 }
 @media (min-width: 1200px) {
