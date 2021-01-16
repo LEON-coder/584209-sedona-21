@@ -2227,6 +2227,15 @@ body {
     flex-direction: column;
   }
 }
+@media (min-width: 768px) {
+  .foto-gallery__block-common-text {
+    flex-direction: column;
+    width: 175px;
+    height: 43px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+  }
+}
 .foto-gallery__block-autor_landscape {
   font-family: 'PT Sans';
   font-style: normal;
@@ -2297,6 +2306,7 @@ body {
 }
 .foto-gallery__like-icon {
   margin-right: 15px;
+  display: none;
 }
 .foto-gallery__number {
   width: 61px;
@@ -2312,6 +2322,11 @@ body {
   text-transform: uppercase;
   color: #000000;
   mix-blend-mode: normal;
+}
+@media (min-width: 1200px) {
+  .foto-gallery__number {
+    display: none;
+  }
 }
 @media (min-width: 768px) {
   .margin-modifier {
