@@ -87,6 +87,7 @@ display: flex;
     width: 100%;
     border-radius: 0px;
     position: relative;
+    margin-top: 33px;
   }
 
 @media (min-width: 768px) {
@@ -176,12 +177,13 @@ display: flex;
 }
 
 .block-presentation__elements-control {
- display: flex;
+display: flex;
     align-self: center;
     flex-direction: column;
     position: relative;
     margin-top: -45px;
-    width: 100%;
+      height: auto;
+    width: 280px;
 }
 
 
@@ -259,7 +261,8 @@ display: flex;
 
 
 .block-presentation__player-block {
-  display:flex;
+  display:flex; 
+    position: relative;
   }
   
 @media (min-width: 768px) {
@@ -272,6 +275,9 @@ display:flex;
   width: 235px;
   display: flex;
   z-index: 2;
+  position: absolute;
+    top: -22px;
+    left: 22px;
 }
 
 @media (min-width: 768px) {
@@ -283,6 +289,7 @@ display:flex;
     background: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.2;
+    position: initial;
 }
 }
 
@@ -309,9 +316,9 @@ display:flex;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-    top: 16%;
-  left: 20%;
+position: absolute;
+    top: -26px;
+    left: 20%;
 }
 
 @media (min-width: 768px) {
@@ -319,9 +326,8 @@ display:flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-      top: 45%;
-    left: 20%;
+  position: absolute;
+    top: -4px;
 }
 }
 
@@ -332,8 +338,8 @@ display:flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-   top: 44%;
+position: absolute;
+    top: -4px;
     left: 35%;
 }
 }
@@ -350,19 +356,20 @@ display:flex;
 
 
 .block-presentation__replay-and-subtitles {
-  display: flex;
-  justify-content: space-between;
-  background: #F2F2F2;
-  height: 66px;
+ display: flex;
+    justify-content: center;
+    background: #F2F2F2;
+    height: 66px;
+    width: 280px;
  
 }
 
 @media (min-width: 768px) {
 .block-presentation__replay-and-subtitles {
-      display: flex;
+          display: flex;
     background: none;
     align-items: center;
-        margin-left: 42px;
+    justify-content: end;
    
 }
 }
@@ -417,6 +424,7 @@ display:flex;
 .block-presentation__player-subtitles-tablet {
 display:flex;
     margin-right: 31px;
+    margin-left: 42px;
 }
 }
 
@@ -433,8 +441,9 @@ display:flex;
 
 .block-presentation__player-fullscreen {
   display: flex;
-  align-self: center;
-  margin-right: 20px;
+    align-self: center;
+    margin-right: 20px;
+    margin-left: 31px;
 }
 
 @media (min-width: 768px) {
