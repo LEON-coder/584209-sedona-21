@@ -2196,7 +2196,7 @@ body {
 }
 @media (min-width: 768px) {
   .foto-gallery__block-common-text {
-    height: 43px;
+      height: 43px;
     width: 209px;
     display: flex;
     flex-direction: column;
