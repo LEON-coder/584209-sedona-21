@@ -5,86 +5,63 @@
   justify-content: center;
   align-items: center;
 }
-
-
-@media (min-width:768px) {
-.form__main-contain {
-  display: flex;
-  flex-direction: column;
-  width: 648px;
-  justify-content: center;
-  align-items: center;
+@media (min-width: 768px) {
+  .form__main-contain {
+    display: flex;
+    flex-direction: column;
+    width: 648px;
+    justify-content: center;
+    align-items: center;
+  }
 }
-}
-
 .form__main-contain_picture {
   width: 100%;
   height: 214px;
 }
-
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .form__main-contain_picture--tablet {
-display: flex;
-position: absolute;
-top: 0;
-left: 0;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
-}
-
-
 .form-contain__block-picture_decorations {
   position: relative;
 }
-
 .form__sedona {
   position: absolute;
   top: 30%;
   display: flex;
   left: 15%;
 }
-
-
-
 .form__sedona-tablet {
   display: none;
-  }
-
-@media (min-width:768px) {
-.form__sedona-tablet {
-display: flex;
 }
-}
-
-
-@media (min-width:1200px) {
+@media (min-width: 768px) {
   .form__sedona-tablet {
-  display: flex;
+    display: flex;
   }
+}
+@media (min-width: 1200px) {
+  .form__sedona-tablet {
+    display: flex;
   }
-
+}
 .vectors-block {
   display: flex;
   position: absolute;
   bottom: 0;
 }
-
-@media (min-width:768px) {
-.intro-triangle-tablet {
-
-}
-}
-
 .form-vector {
   bottom: 4px;
 }
-
 .main__block-feedback {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .form__feedback {
   display: flex;
   justify-content: center;
@@ -98,7 +75,6 @@ display: flex;
   text-align: center;
   font-family: PT Sans;
 }
-
 .form__feedback-text {
   width: 306px;
   height: 151px;
@@ -117,7 +93,6 @@ display: flex;
   color: #333333;
   mix-blend-mode: normal;
 }
-
 .form__content-introduce {
   margin-top: 16px;
   display: flex;
@@ -125,7 +100,6 @@ display: flex;
   justify-content: center;
   width: 90%;
 }
-
 .introducing {
   width: 170px;
   height: 26px;
@@ -144,7 +118,6 @@ display: flex;
   mix-blend-mode: normal;
   align-self: center;
 }
-
 .form__content-introduce_form {
   width: 100%;
   height: 214px;
@@ -154,7 +127,6 @@ display: flex;
   align-items: center;
   margin-top: 19px;
 }
-
 .form__content-introduce_form-name {
   font-family: PT Sans;
   font-style: normal;
@@ -168,7 +140,6 @@ display: flex;
   mix-blend-mode: normal;
   align-self: flex-end;
 }
-
 .Peter {
   font-family: PT Sans;
   font-style: normal;
@@ -185,7 +156,6 @@ display: flex;
   margin-left: 20px;
   justify-content: space-between;
 }
-
 .Ivanov {
   font-family: PT Sans;
   font-style: normal;
@@ -201,7 +171,6 @@ display: flex;
   mix-blend-mode: normal;
   margin-left: 20px;
 }
-
 .Alexandrovich {
   font-family: PT Sans;
   font-style: normal;
@@ -217,7 +186,6 @@ display: flex;
   mix-blend-mode: normal;
   margin-left: 20px;
 }
-
 .form__content-introduce_form-last-name {
   font-family: PT Sans;
   font-style: normal;
@@ -230,7 +198,6 @@ display: flex;
   color: #333333;
   mix-blend-mode: normal;
 }
-
 .form__content-introduce_form-middle-name {
   font-family: PT Sans;
   font-style: normal;
@@ -243,14 +210,12 @@ display: flex;
   color: #333333;
   mix-blend-mode: normal;
 }
-
 .form__contact-information {
   display: flex;
   flex-direction: column;
   width: 90%;
   margin-top: 20px;
 }
-
 .contact-information_text {
   font-family: PT Sans;
   font-style: normal;

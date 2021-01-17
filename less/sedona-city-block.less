@@ -234,9 +234,10 @@
 
 @media (min-width: 1200px) {
   .sedona-city-block__vectors-block-tablet {
-      display: none;
-      bottom: 0;
-      position: absolute;
+     display: flex;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
   }
 }
 
@@ -414,4 +415,16 @@
       bottom: -37px;
       z-index: 3;
   }
+}
+
+
+.intro-triangle-tablet {
+  display:flex
+}
+
+
+@media (min-width: 1200px) {
+.intro-triangle-tablet {
+  display: none;
+}
 }
