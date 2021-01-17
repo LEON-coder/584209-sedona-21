@@ -6,26 +6,65 @@
   align-items: center;
 }
 
-.form__main-contain__picture {
+
+@media (min-width:768px) {
+.form__main-contain {
+  display: flex;
+  flex-direction: column;
+  width: 648px;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+.form__main-contain_picture {
   width: 100%;
   height: 214px;
 }
 
-.main-contain__block-picture_decorations {
+@media (min-width:768px) {
+  .form__main-contain_picture--tablet {
+display: flex;
+position: absolute;
+top: 0;
+left: 0;
+}
+}
+
+
+.form-contain__block-picture_decorations {
   position: relative;
 }
 
-.SEDONA {
+.form__sedona {
   position: absolute;
   top: 30%;
   display: flex;
   left: 15%;
 }
 
+
+
+.form__sedona-tablet {
+  display: none;
+  }
+
+@media (min-width:768px) {
+.form__sedona-tablet {
+display: flex;
+}
+}
+
 .vectors-block {
   display: flex;
   position: absolute;
   bottom: 0;
+}
+
+@media (min-width:768px) {
+.intro-triangle-tablet {
+
+}
 }
 
 .form-vector {
