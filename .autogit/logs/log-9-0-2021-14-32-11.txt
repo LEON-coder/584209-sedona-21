@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jan 09 2021 14:32:11 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* css/style.css
+* index.html
+
+
+Created files:
+* img/main/block-map/map-tablet.jpg
+
+
+Deleted files:
+
+
+Renamed files:

@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Sun Jan 10 2021 15:27:47 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* catalog.html
+* css/style.css
+* form.html
+* index.html
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

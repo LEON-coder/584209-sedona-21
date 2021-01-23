@@ -1,0 +1,87 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jan 09 2021 18:04:52 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* form.html
+* index.html
+* less/block-form.less
+* less/block-info.less
+* less/block-presentation.less
+* less/catalog-main-content.less
+* less/catalog__content.less
+* less/city-2.less
+* less/city-info-discribes-city.less
+* less/city-info.less
+* less/form__contact-impression.less
+* less/form__contact-information.less
+* less/form__content-introduce.less
+* less/form__emotions.less
+* less/form__visited-places.less
+* less/global_styles.less
+* less/header.less
+* less/main__block-feedback.less
+* less/sedona-city-block.less
+* less/style.less
+
+
+Created files:
+* img/block-presentation/replay.svg.svg
+* img/catalog-content/back-tablet.jpg.jpg
+* img/footer/social-block/fb.png
+* img/footer/social-block/tw.png
+* img/footer/social-block/youtube.png
+* img/header/back-desktop.png
+* img/header/header___logo/logotype-mobile.svg
+* img/header/header__logo/logotype-mobile.svg.svg
+* img/header/header__logo/logotype-tablet.svg.svg
+* img/header/header__menu--mobile/icon-menu.png
+* img/header/header__menu--mobile/icon-menu.svg.png
+* img/header/logotype-desktop.svg.svg
+* img/header/logotype-tablet.svg.svg
+* "img/main/block-info/HTML 2 _ \320\241\320\265\320\264\320\276\320\275\320\260 (Copy).zip"
+* img/main/block-info/Vector-left.png
+* img/main/block-info/Vector-right.png
+* img/main/block-info/photo-bridge@1x-tablet.jpg
+* img/main/city-info-discribes-city/city-info-discribes-city__advertising/icon-burger.svg
+* img/main/city-info-discribes-city/city-info-discribes-city__advertising/icon-burger.svg.svg
+* img/main/city-info-discribes-city/city-info-discribes-city__advertising/icon-gift.svg.svg
+* img/main/city-info-discribes-city/city-info-discribes-city__advertising/icon-house.svg.svg
+* img/main/city-info-discribes-city/city-info-discribes-city__advertising/tablet_icons/icon-burger-tablet..svg.svg
+* img/main/city-info-discribes-city/city-info-discribes-city__advertising/tablet_icons/icon-burger-tablet.svg
+* img/main/city-info-discribes-city/city-info-discribes-city__advertising/tablet_icons/icon-gift-tablet.svg.svg
+* img/main/city-info-discribes-city/city-info-discribes-city__advertising/tablet_icons/icon-house-tablet.svg.svg
+* img/main/city-info-discribes-city/photo-city.jpg
+* "img/main/city-info-discribes-city/photo-city@1x - desktop.jpg"
+* "img/main/city-info-discribes-city/photo-city@1x 1.jpg"
+* img/main/city-info/main__city--background.jpg
+* "img/main/city-info/photo-city@1x - tablet.jpg"
+* "img/main/city-info/white copy 2.png"
+* "img/main/main__city--info/photo-city@1x - tablet.jpg"
+* img/main/sedona-city-block-discribes-city/city--2__advertising/icon-burger.svg.svg
+* img/main/sedona-city-block-discribes-city/city--2__advertising/icon-gift.svg.svg
+* img/main/sedona-city-block-discribes-city/city--2__advertising/icon-house.svg.svg
+* img/main/sedona-city-block/Vector-left-gorgeous.svg
+* img/main/sedona-city-block/Vector-left-tablet.svg
+* img/main/sedona-city-block/Vector-right-gorgeous.svg
+* img/main/sedona-city-block/Vector-right-tablet.svg
+* img/main/sedona-city-block/back-mobile.jpg
+* img/main/sedona-city-block/gorgeous-tablet.svg
+* img/main/sedona-city-block/gorgeous.png
+* img/main/sedona-city-block/grand-canyon-tablet.svg
+* img/main/sedona-city-block/grand-canyone.png
+* img/main/sedona-city-block/intro-triangle-desktop.svg
+* img/main/sedona-city-block/intro-triangle.svg
+* img/main/sedona-city-block/sedona-mobile.png
+* img/main/sedona-city-block/sedona-tablet.svg
+* img/main/sedona-city-block/sedona.svg
+* img/main/sedona-city-block/tablet-intro-triangle.svg
+* img/main/sedona-city-block/triangle-mobile-2.svg
+* img/main/sedona-city-block/welcome-tablet.svg
+* img/main/sedona-city-block/welcome.png
+
+
+Deleted files:
+
+
+Renamed files:

@@ -1,0 +1,164 @@
+-------------------- Auto-Git Log --------------------
+		Tue Jan 05 2021 18:41:03 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* .gitignore
+
+
+Created files:
+* css/style.css
+* css/style.css.map
+* img/header/back-mobile.jpg
+* img/header/header__logo/logotype-tablet.svg
+* img/header/intro-triangle-mobile.svg
+
+
+Deleted files:
+* .autogit/autogit.json
+* .autogit/logs/log-14-10-2020-18-55-32.txt
+* .autogit/logs/log-14-10-2020-19-25-50.txt
+* .autogit/logs/log-14-10-2020-19-56-10.txt
+* .autogit/logs/log-14-10-2020-20-26-30.txt
+* .autogit/logs/log-14-10-2020-20-56-48.txt
+* .autogit/logs/log-14-10-2020-21-27-8.txt
+* .autogit/logs/log-14-10-2020-21-57-27.txt
+* .autogit/logs/log-14-10-2020-22-27-46.txt
+* .autogit/logs/log-14-10-2020-22-58-4.txt
+* .autogit/logs/log-14-10-2020-23-28-23.txt
+* .autogit/logs/log-14-10-2020-23-58-45.txt
+* .autogit/logs/log-15-10-2020-0-29-3.txt
+* .editorconfig
+* .gitattributes
+* .github/workflows/check.yml
+* .stylelintrc
+* .vs/584209-sedona-21/v16/.suo
+* .vs/VSWorkspaceState.json
+* .vs/slnx.sqlite
+* Contributing.md
+* Readme.md
+* gulpfile.js
+* package-lock.json
+* package.json
+
+
+Renamed files:
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]

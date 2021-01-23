@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jan 07 2021 14:01:40 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* catalog.html
+* css/style.css
+
+
+Created files:
+* img/catalog-content/SEDONA-mobile.svg
+* img/header/header__logo/logotype-desktop.svg
+
+
+Deleted files:
+* img/header/header___menu-mobile/icon-menu.svg.png
+
+
+Renamed files:

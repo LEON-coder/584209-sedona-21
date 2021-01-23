@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jan 06 2021 20:08:44 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* css/style.css
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

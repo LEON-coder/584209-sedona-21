@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jan 16 2021 18:06:58 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* catalog.html
+* css/style.css
+* css/style.css.map
+* less/catalog-main.less
+* less/catalog-main__foto-gallery.less
+* less/style.css
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

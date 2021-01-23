@@ -1,0 +1,24 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jan 13 2021 22:29:13 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* catalog.html
+* css/style.css
+* css/style.css.map
+* less/block-presentation.css
+* less/block-presentation.less
+* less/catalog-main.css
+* less/catalog-main.less
+
+
+Created files:
+* img/block-presentation/fullscreen-tablet.png
+* img/block-presentation/replay-tablet.png
+* img/block-presentation/subtitles-tablet.png
+
+
+Deleted files:
+
+
+Renamed files:

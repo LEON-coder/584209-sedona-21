@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jan 16 2021 13:33:43 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* css/style.css
+* css/style.css.map
+* less/block-presentation.less
+* less/catalog-main.less
+* less/footer.less
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

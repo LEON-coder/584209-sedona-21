@@ -1,9 +1,9 @@
-.catalog__header {
+.catalog-header {
   display: flex;
   width: 100%;
 }
 
-.catalog-header__wrapper {
+.catalog-header-wrapper {
   background-image: url("catalog/img/header/header-back-desktop.jpg.png");
   width: 100%;
   display: flex;
@@ -14,8 +14,30 @@
 .catalog-header__logo {
   display: flex;
   justify-content: center;
+  z-index: 2;
 }
 
-.catalog-header-image {
+@media (min-width: 768px) { 
+.catalog-header__logo {
+  display: none;
+}
+
+}
+
+.catalog-header__image {
 display: flex;
+}
+
+
+.catalog-header__icon {
+ position: absolute;
+    right: 20px;
+    top: 17px;
+}
+
+@media (min-width: 768px) { 
+.catalog-header__icon {
+display: none;
+}
+
 }

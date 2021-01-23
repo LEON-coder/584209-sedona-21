@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jan 06 2021 18:38:07 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* catalog.html
+* css/style.css
+* index.html
+
+
+Created files:
+* img/block-presentation/video-tablet.jpg
+* img/catalog-content/SEDONA-tablet.svg
+* img/catalog-content/back-tablet.jpg
+
+
+Deleted files:
+* img/header/back-desktop.png
+
+
+Renamed files:

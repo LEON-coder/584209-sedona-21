@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Fri Jan 08 2021 21:59:43 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* catalog.html
+* css/style.css
+
+
+Created files:
+* img/block-presentation/replay-desktop.svg
+* img/block-presentation/subtitles-desktop.png
+
+
+Deleted files:
+
+
+Renamed files:
+* [object Object]

@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jan 09 2021 20:36:19 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* form.html
+* less/form__visited-places.less
+* less/header.less
+* less/sedona-city-block-discribes-city.less
+* less/sedona-city-block.less
+* less/style.less
+
+
+Created files:
+
+
+Deleted files:
+* less/form.less
+* less/sedona-city-block-2.less
+
+
+Renamed files:

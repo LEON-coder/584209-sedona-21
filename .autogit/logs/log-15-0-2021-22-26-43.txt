@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Fri Jan 15 2021 22:26:43 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* catalog.html
+* css/style.css
+* css/style.css.map
+* less/block-presentation.less
+* less/catalog-main.less
+* less/catalog-main__foto-gallery.less
+
+
+Created files:
+* img/block-presentation/video-desktop.jpg
+
+
+Deleted files:
+
+
+Renamed files:

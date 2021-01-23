@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Fri Jan 08 2021 15:25:15 GMT+0300 (Москва, стандартное время)
+------------------------------------------------------
+
+Modified files:
+* catalog.html
+* css/style.css
+
+
+Created files:
+* img/catalog-main__foto-gallery/like-icon-desktop.svg
+
+
+Deleted files:
+
+
+Renamed files:
