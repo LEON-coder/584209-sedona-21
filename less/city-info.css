@@ -1,0 +1,254 @@
+.city-info {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .city-info {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    height: 256px;
+  }
+}
+@media (min-width: 1200px) {
+  .city-info__background {
+    display: none;
+    justify-content: center;
+    height: 256px;
+    width: 100%;
+    border-radius: 0px;
+  }
+}
+.city-info__background-tablet {
+  display: none;
+}
+@media (min-width: 768px) {
+  .city-info__background-tablet {
+    display: flex;
+    height: 256px;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .city-info__background-tablet {
+    display: none;
+    height: 256px;
+    width: 512px;
+  }
+}
+.city-info__background-desktop {
+  width: 100%;
+  display: none;
+}
+@media (min-width: 768px) {
+  .city-info__background-desktop {
+    width: 100%;
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .city-info__background-desktop {
+    width: 100%;
+    display: flex;
+  }
+}
+.city-info__two-vectors-block {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .city-info__two-vectors-block {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: none;
+  }
+}
+.city-info__block {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 39px;
+  padding-top: 55px;
+  background-color: #81B3D2;
+}
+@media (min-width: 768px) {
+  .city-info__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    padding-top: 0;
+    width: 256px;
+    border-radius: 0px;
+    background-color: #81B3D2;
+  }
+}
+@media (min-width: 1200px) {
+  .city-info__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 39px;
+    padding-top: 55px;
+    width: 400px;
+    border-radius: 0px;
+    background-color: #81B3D2;
+  }
+}
+.city-info__block-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .city-info__block-wrap {
+    width: 192px;
+  }
+}
+@media (min-width: 1200px) {
+  .city-info__block-wrap {
+    height: 153px;
+    width: 295px;
+  }
+}
+.city-info__city {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  justify-content: center;
+}
+@media (min-width: 1200px) {
+  .city-info__city {
+    justify-content: center;
+    width: 295px;
+    height: 153px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+  }
+}
+.city-info__city-background {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .city-info__city-background {
+    display: none;
+  }
+}
+.city-info__city-background-tablet {
+  display: none;
+  max-width: 100%;
+}
+@media (min-width: 768px) {
+  .city-info__city-background-tablet {
+    display: flex;
+    width: 512px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .city-info__city-background-tablet {
+    display: none;
+    width: 512px;
+    max-width: 100%;
+  }
+}
+.city-info__city-background-desktop {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .city-info__city-background-desktop {
+    display: flex;
+    width: 100%;
+  }
+}
+.city-info__number-1 {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  justify-content: center;
+}
+.city-info__tourist {
+  font-family: 'PT Sans';
+  width: 295px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+}
+@media (min-width: 768px) {
+  .city-info__tourist {
+    width: 192px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+  }
+}
+@media (min-width: 1200px) {
+  .city-info__tourist {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    width: 295px;
+    height: 153px;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+  }
+}
