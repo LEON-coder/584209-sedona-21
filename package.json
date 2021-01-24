@@ -1,0 +1,19 @@
+{
+    "name": "source",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LEON-coder/584209-sedona-21.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LEON-coder/584209-sedona-21/issues"
+    },
+    "homepage": "https://github.com/LEON-coder/584209-sedona-21#readme"
+}
