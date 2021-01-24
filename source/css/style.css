@@ -2069,12 +2069,14 @@ body {
     width: 27px;
     height: 34px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
     .footer__copyright {
         max-width: 100%;
         margin-left: -10px;
+        cursor: pointer;
     }
 }
 
