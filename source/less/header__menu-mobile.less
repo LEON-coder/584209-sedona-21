@@ -1,0 +1,164 @@
+.header__menu-mobile { 
+position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 223px;
+    border-radius: 0px;
+    z-index: 3;
+}
+
+@media (min-width:768px) {
+.header__menu-mobile {
+      display: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}  
+}
+
+
+@media (min-width:1200px) {
+    .header__menu-mobile {
+          display: none;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }  
+    }
+
+
+    .header__menu-burger {
+     height: 4px;
+    border-radius: 0px;
+    width: 22.89999962px;
+    display: block;
+    position: absolute;
+    right: 17px;
+    top: 25px;
+    background: #81B3D2;
+    }
+
+
+
+
+
+.header__menu-burger::before,
+.header__menu-burger::after {
+    content: "";
+    height: 4px;
+width: 22.899999618530273px;
+display: flex;
+    background: #81B3D2;
+    position: absolute;
+}
+
+
+
+.header__menu-burger::before {
+    content: "";
+    height: 4px;
+width: 22.899999618530273px;
+display: flex;
+    background: #81B3D2;
+    top: 10px;
+}
+
+
+.header__menu-burger::after {
+    content: "";
+    height: 4px;
+width: 22.899999618530273px;
+display: flex;
+    background: #81B3D2;
+    top: -10px;
+}
+
+
+
+
+
+
+
+.header__menu-burger_list-items {
+  width: 100%;
+    padding: 0;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background: #81B3D2;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    list-style: none;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+
+
+.menu-burger--active {
+    height: 4px;
+ border-radius: 0px;
+ width: 22.89999962px;
+ display: block;
+ position: absolute;
+ right: 19px;
+ top: 17px;
+ background: rgba(0,0,0,0);
+ }
+
+
+.menu-burger--active::after {
+    content: "";
+    height: 4px;
+    width: 22.89999962px;
+    position: absolute;
+    top: 8px;
+    background: #FFFFFF;
+    transform: rotate(45deg);
+}
+
+
+
+.menu-burger--active::before {
+    content: "";
+    height: 4px;
+    width: 22.89999962px;
+    position: absolute;
+    top: 8px;
+    background: #FFFFFF;
+    transform: rotate(-45deg);
+}
+
+.menu-mobile__list {
+display: flex;
+}
+
+
+.menu-mobile__item {
+  width: auto;
+    height: 55px;
+    border-radius: 0px;
+    margin: 0;
+    text-decoration: none;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+
