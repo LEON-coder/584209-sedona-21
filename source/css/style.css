@@ -256,19 +256,9 @@ body {
   position: absolute;
 }
 .header__menu-burger::before {
-  content: "";
-  height: 4px;
-  width: 22.89999962px;
-  display: flex;
-  background: #81B3D2;
   top: 10px;
 }
 .header__menu-burger::after {
-  content: "";
-  height: 4px;
-  width: 22.89999962px;
-  display: flex;
-  background: #81B3D2;
   top: -10px;
 }
 .header__menu-burger_list-items {
@@ -279,7 +269,7 @@ body {
   font-weight: bold;
   font-size: 18px;
   line-height: 40px;
-  display: flex;
+  display: none;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
@@ -290,39 +280,35 @@ body {
   flex-direction: column;
   margin: 0;
 }
-.menu-burger--active {
+.menu-mobile__list {
+  display: flex;
+}
+.active::after {
   height: 4px;
   border-radius: 0px;
   width: 22.89999962px;
   display: block;
   position: absolute;
-  right: 19px;
-  top: 17px;
-  background: rgba(0, 0, 0, 0);
-}
-.menu-burger--active::after {
-  content: "";
-  height: 4px;
-  width: 22.89999962px;
-  position: absolute;
-  top: 8px;
+  right: 0px;
+  top: 0px;
   background: #FFFFFF;
-  transform: rotate(45deg);
-}
-.menu-burger--active::before {
-  content: "";
-  height: 4px;
-  width: 22.89999962px;
-  position: absolute;
-  top: 8px;
-  background: #FFFFFF;
+  z-index: 4;
   transform: rotate(-45deg);
 }
-.menu-mobile__list {
-  display: flex;
+.active::before {
+  height: 4px;
+  border-radius: 0px;
+  width: 22.89999962px;
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  z-index: 4;
+  transform: rotate(45deg);
 }
 .menu-mobile__item {
-  width: auto;
+  width: 100%;
   height: 55px;
   border-radius: 0px;
   margin: 0;
@@ -338,6 +324,8 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   mix-blend-mode: normal;
+  box-shadow: 0px 1px 0px rgba(1, 1, 1, 0.2);
+  justify-content: center;
 }
 .sedona-city-block {
   mix-blend-mode: normal;
